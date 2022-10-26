@@ -1,0 +1,169 @@
+@import url(reset.css);
+@import url(common.css);
+/* top-main */
+.header{
+    margin-bottom: 80px;
+}
+
+.top-main{
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(../img/FAQ/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 80px;
+
+}
+.tpcontent{
+    
+    text-align: center;
+    position: absolute;
+    z-index: 5;
+    width: 40%;
+    top: 40%; 
+    right: 0;
+}
+
+.tpcontent h1{
+    /* opacity: 100%; */
+    font-weight: bolder;
+
+}
+
+.tpcontent h3{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+/* mid-top */
+.mid-top{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.mid-top div{
+    width: 300px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* mid */
+
+.mid{
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.mid div{
+    margin: 80px;
+}
+
+.mid img{
+    width: 150px;
+    height: 150px;
+}
+
+.mid h6{
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.mid ul{
+    width: 350px;
+    padding-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.mid li{
+    text-align: left;
+    margin-top: 5px;
+    
+}
+
+/* bot-list */
+.bot{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bot-list{
+    margin: auto;
+    width: 600px;
+    display: flex;
+    border-radius: 25px;
+    padding: 10px 30px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-list>div{
+    border-radius: 45px;
+    background-color: rgb(251, 216, 221);
+    padding: 30px;
+}
+
+
+
+.bot-list ul{
+    position: relative;
+    padding-top: 10px;
+}
+
+
+
+.bot-list>img{
+    width: 100px;
+    padding-right: 60px;
+}
+
+/* 對話框 */
+
+.bot-list .tri{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 50px 25px 0;
+    border-color: transparent rgb(251, 216, 221) transparent transparent;
+    position: absolute;
+    left: -70px ;
+    z-index: 3; 
+}
+/* 打開按鈕 */
+.down-btn {
+    border: none;
+    background-color: rgb(251, 216, 221);
+}
+.down-btn>div{
+    
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #DC9731 transparent transparent transparent;
+    
+}
+
+.down-btn:hover div{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: white transparent transparent transparent;
+}
+
+.down-btn:active div{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: black transparent transparent transparent;
+}

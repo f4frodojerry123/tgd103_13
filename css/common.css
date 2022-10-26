@@ -18,6 +18,7 @@ h3{
 }
 h4{
     font-size: 20px;
+    font-weight: bold;
 }
 
 p{
@@ -34,6 +35,13 @@ a{
     display: block;   
 }
 
+.btn1{
+    font-size: 24px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: #DC9731;
+}
+
 /* header */
 #header{
     position: fixed;
@@ -44,7 +52,7 @@ a{
     box-shadow: 1px 2px 1px gray;   
 }
 
-#header a{
+.nav a{
     height: 100%;
     width: 100%;
     line-height: 80px;
@@ -71,7 +79,7 @@ a{
 #trbtn{
     border-left: 1px solid lightsalmon;
     border-right: 1px solid lightsalmon;
-    background-color: antiquewhite;    
+    background-color: #DC9731;    
 }
 
 
@@ -99,49 +107,34 @@ a{
     color: white;
 }
 
-/* top-main */
-.top-main{
-    padding-top: 80px;
-    width: 100%;
-    height: 100vh;
-    
-    background-image: url(../img/firstpage/topbanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left top;
-    opacity: 80%;
-}
-.tpcontent{
-    
-    text-align: center;
-    position: absolute;
-    z-index: 5;
-    width: 40%;
-    top: 40%; 
-   
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #F9F1DF;
 }
 
-.tpcontent h1{
-    /* opacity: 100%; */
-    font-weight: bolder;
-
+.footer img{
+    width: 130px;
+    padding-left: 28px;
 }
 
-.tpcontent h3{
-    margin-top: 100px;
-    font-weight: bold;
+.footer ul{
+    display: flex;
+}
+.footer li{
+    padding: 10px;
 }
 
-.tpcontent .btn1{
-    display: inline-block;
-    margin: 30px;  
-    margin-top: 40px;
-    font-size: 24px;
-    border: 1px solid ;
-    width: 120px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 25px;
-    background-color: #DC9731;
-     
+.contact{
+    display: flex;
+}
+
+.footer .contact img{
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
