@@ -1,0 +1,380 @@
+@import url(reset.css);
+@import url(common.css);
+
+
+
+/* comment */
+
+.comment{
+    
+    margin: auto;
+    width: 800px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 2px black;
+    margin-bottom: 30px;
+}
+
+.comment h4{
+    color: #DC9731;
+    margin-bottom: 15px ;
+
+}
+
+.comment p{
+    margin-bottom: 50px;
+   
+}
+
+.live{
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+}
+
+.live a{
+    color: #DC9731;
+    display: inline;
+}
+
+/* main */
+.check-in{
+    width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center ;
+    /* align-items: center; */
+}
+
+.check-in img{
+    width: 550px;
+    height: 350px;
+    padding-right: 20px;
+}
+/* carry */
+.bag{
+    width: 1200px;
+    margin: auto;
+    padding-top: 0;
+    display: flex;
+    justify-content: center ;
+    /* align-items: center; */
+}
+.bag img{
+    width: 550px;
+    height: 350px;
+    order: 2;
+    padding-left: 20px;
+}
+
+
+
+/* eat */
+
+.eat{
+    width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center ;
+    /* align-items: center; */
+}
+
+.eat img{
+    width: 550px;
+    height: 350px;
+    padding-right: 20px;
+}
+/* main-text */
+
+.main-text{
+    width: 550px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+.main-text h2{
+    
+    color: #ec930e;
+}
+
+.main-text p{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.main-text ul{
+    margin-top: 50px;
+}
+/* service */
+.service{
+    margin: auto;
+    padding-top: 50px;
+    width: 1200px;
+    height: 385px;
+    background-color: #FFF4D8;
+    border-bottom: 2px solid black;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+    position: relative;
+}
+.service h3{
+    padding-top: 20px;
+}
+.service ul{
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+    width: 1280px;
+}
+.service li{
+    margin: 0 10px;
+}
+.service img{
+    width: 170px;
+    height: 170px;
+    border: 1px solid lightsalmon;
+    border-radius: 50%;
+}
+
+.on-sales{
+    position: absolute;
+    background: linear-gradient(268.9deg, #F4D992 6.38%, #F45E4A 97.6%);
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 36px;
+    font-weight: bold;  
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin:  auto;
+    
+}
+
+.goshop{
+    position: absolute;
+    background-color: white;
+    right: 0;
+    bottom: -40px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px; ;
+    
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.goshop svg{
+    width: 20px;
+}
+
+/* hotitems */
+.hotitem{
+    width: 1280px;
+    height: 100%;
+    /* background-color: palevioletred; */
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center ;
+    text-align: left;
+    position: relative;
+}
+
+
+
+.hotitem ul{
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+}
+
+.hotitem li{
+    border: 1px solid lightgray;
+    margin-left: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+    /* border: 1px solid black; */
+}
+
+.hotitem img{
+    padding: 10px 20px;
+    width: 150px;
+    border-bottom: 1px solid black;
+}
+
+.itemin{
+    padding-left: 15px;
+}
+
+.hotitem p{
+    font-size: 18px;
+    color: #F45E4A;
+    
+}
+
+.hotitem .left{
+    margin-left: 0;
+    background-color: lightgray;
+    margin: auto;
+    width: 60px;
+    height: 200px;
+    display: flex;
+    border: none;
+}
+.left svg{
+    width: 30px;
+    margin: auto; 
+}
+
+.hotitem .right{
+    margin-left: 0;
+    margin: auto;
+    width: 60px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    border: none;
+}
+
+.right svg{
+    margin: auto;
+    width: 30px;
+}
+
+.buybtn{
+    background-color: #ffd89d;
+    border: none;
+}
+/* bottombanner */
+.botban{
+    margin: auto;
+    width: 1280px;
+    background-image: url(../img/firstpage/shoppingmall.jpg);
+    height: 661px;
+
+}
+   
+.bot-text {
+    margin: auto;
+    width: 300px; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+.bot-text img{
+    width: 200px;
+    padding-left: 40px;
+    /* margin: auto 0; */ 
+}
+
+.lt{
+    padding-top: 150px;
+}
+.rb {
+    padding-top: 40px;
+}
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #F9F1DF;
+}
+
+.footer img{
+    width: 130px;
+    padding-left: 28px;
+}
+
+.footer ul{
+    display: flex;
+}
+.footer li{
+    padding: 10px;
+}
+
+.contact{
+    display: flex;
+}
+
+.footer .contact img{
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*  */
+.btn2 {
+    display: inline-block;
+    margin: 30px;  
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px solid ;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #ffd89d;
+}
+
+
+
+/* hover */
+#trbtn:hover{
+    background-color: rgb(244, 199, 133);
+}
+#trbtn a:hover{
+    color: white;
+}
+.nav a:hover{
+    color: orange;
+}
+
+.btn1:hover{
+    background-color: #ec930e;
+    color: white;
+}
+ 
+.live a:hover{
+    color: black;
+}
+
+.btn2:hover{
+    background-color: #ec930e;
+}
+
+.left:hover{
+    background-color: gray;
+}
+
+.right:hover{
+    background-color: gray;
+}
+.buybtn:hover{
+    background-color: #ec930e;
+}
