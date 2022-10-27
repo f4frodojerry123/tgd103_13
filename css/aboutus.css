@@ -77,13 +77,15 @@
 
 .pic{
     width: 600px;
+    height: 400px;
+    background-image: url('../img/aboutus/bottom/mid-hotel.jpg');
+    margin: auto;
+    transition: background-image 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.pic img{
-    width: 100%;
-    height: 100%;
-    
-}
+
 
 .his{
     width: 300px;
@@ -99,7 +101,30 @@
     text-align: left;
     padding-top: 30px;
 }
+/* slider */
+#indicator{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 20px;
+    width: 840px;
+    height: 300px;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    background-color: black;
 
+}
+#indicator li{
+    width: 200px;
+    height: 150px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+#indicator li img{
+    max-width: 100%;
+}
 /* grid */
 
 .grid-pic{

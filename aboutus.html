@@ -64,7 +64,7 @@
                 </ul>
             </div>
             <div class="pic">
-                <img src="img/aboutus/mid-hotel.jpg" alt="">
+                
             </div>
             <div class="his">
                 <h4>歷史</h4>
@@ -78,7 +78,18 @@
             </div>
         </div>  
     </div>
+    <!-- slider -->
+    <div class="sli-list">
+    <ul id="indicator">
+        <li><img src="img/aboutus/bottom/mid-hotel.jpg" alt="" onclick="change_img(this)"></li>
+        <li><img src="img/aboutus/bottom/1.png" alt="" onclick="change_img(this)"></li>
+        <li><img src="img/aboutus/bottom/2.png" alt="" onclick="change_img(this)"></li>
+        <li><img src="img/aboutus/bottom/3.png" alt="" onclick="change_img(this)"></li>
+       
+    </ul>
+    </div>
     <!-- hotel pic -->
+
     <div class="grid-pic">
         <div>
             <img src="img/aboutus/bottom/1.png" alt="" >
@@ -131,6 +142,17 @@
         </span>
 
     </div>
-    
+    <!-- js -->
+    <script>
+        //取得indicator下所有的li
+        let img_btn = document.querySelectorAll("#indicator li img");
+
+        function change_img(li_img){
+            let pic = li_img.src; //取得當下被點擊的圖片的src
+            console.log(pic); //測試
+            const slider_img = document.querySelector(".pic"); //取得slider中img物件
+            slider_img.style.backgroundImage = `url('${pic}')`; //將slider中img物件的src改為點擊圖片的src
+        }
+    </script>
 </body>
 </html>
