@@ -6,23 +6,32 @@ body{
 }
 
 h1{
-    font-size: 72px;
+    font-size: 64px;
 }
 
 h2{
-    font-size: 56px;
+    font-size: 48px;
 }
 
 h3{
-    font-size: 36px;
+    font-size: 25px;
 }
 h4{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+}
+h6{
+    font-size: 15px;
+}
+li{
+    font-size: 15px;
+}
+#header li{
+    font-size: 18px;
 }
 
 p{
-    font-size: 18px;
+    font-size: 15px;
 }
 li{
     display: block;   
