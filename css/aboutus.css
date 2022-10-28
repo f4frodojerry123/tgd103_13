@@ -62,10 +62,11 @@
     background-color: #FFF4D8;
 }
 
-.mid h4{
+.mid h3{
     border-bottom: 5px solid orange;
-    font-size: 18px;
     padding-bottom: 5px;
+    font-weight: bold;
+    color: #48684e;
 }
 
 .mid >div{
@@ -275,7 +276,7 @@
 .map-pic{
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 60px;
     width: 300px;
 }
 .map-pic img{
