@@ -52,11 +52,12 @@
     position: relative;
 }
 .midbanner h2{
+    display: block;
     position: absolute;
-    top: 0;
     left: 0;
-    right: 0;
-    margin-left: 50px;
+    top: 0;
+    margin: auto;
+    background-color: red;
 }
     
 
