@@ -1,5 +1,8 @@
 @import url(reset.css);
 @import url(common.css);
+body{
+    
+}
 /* top-main */
 .top-main{
     padding-top: 80px;
@@ -48,17 +51,128 @@
 }
 /* mid banner */
 .midbanner{
-    background-color: bisque;
+    background-color: #b6c0b7;
+    margin-top: 5px;
+    /* border: 5px solid white; */
+    box-shadow: -2px -2px 3px 1px black ;
+}
+
+.midbanner>div{
+    background-color: #FFF4D8;
     position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    /* border: 5px solid white; */
+    width: 1280px;
+    margin: auto;
+    
 }
 .midbanner h2{
     display: block;
+    width: 380px;
+    padding-top: 150px;
     position: absolute;
     left: 0;
     top: 0;
+    right: 0;
     margin: auto;
-    background-color: red;
+    /* background-color: red; */
+    text-align: center;
+    font-weight: bold;
+    color: #48684e;
 }
+
+.midbanner img{
+    width: 200px;
+    height: 200px;
+    margin: 30px 30px;
+}
+
+.img-a{
+
+}
+.img-b{
     
+    padding-top: 100px;
+}     
+
+.img-c{
+    padding-top: 200px;
+}
+
+.img-d{
+    padding-top: 100px;
+}
+
+/* block */
+.block-out{
+    background-color: #b6c0b7;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    border: 5px solid white;
+    margin-top: 5px;
+    box-shadow: -2px -2px 3px 1px black ;
+}
+.block{
+    background-color: #FFF4D8;
+    width: 1280px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items:baseline;
+    
+    margin: auto;
+    /* border-radius: 50% 50% 50% 50%; */
+
+}
+
+.block>div{
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.block-out img{
+    width: 500px;
+    height: 333px;
+    scale: 1.1;
+}
+
+.block img{
+    rotate: -10deg;
+    scale: 1.1;
+    box-shadow: 3px 3px 3px 3px rgb(83, 80, 80);
+    border: 5px solid #b6c0b7;
+    
+
+}
+
+.blockright{
+    /* background-color: #b6c0b7; */
+    
+    background-color: #FFF4D8;
+    width: 1280px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items:baseline;
+    margin: auto;
+    /* border-radius: 50% 50% 50% 50%; */
+}
+
+.blockright img{
+    order: 2;
+    rotate: 6deg;
+    scale: 1.1;
+    box-shadow: 3px 3px 3px 3px rgb(83, 80, 80);
+    border: 5px solid #b6c0b7;
+}
+
+.blockright>div{
+    padding-left: 250px;
+    padding-right: 50px;
+    text-align: center;
+}
 
 
