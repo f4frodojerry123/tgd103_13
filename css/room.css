@@ -35,9 +35,14 @@
 }
 /* room table */
 .table{
-    background-color: #fff;
+    background-color: #f7e8c2;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.table>div{
+    background-color: rgb(249, 233, 214);
+    border-radius: 25px;
 }
 
 .table h3{
@@ -45,6 +50,8 @@
     color: #48684e;
     font-weight: bolder;
     margin-bottom: 5px;
+    text-shadow: 2px 2px 2px  white;
+
 }
 
 .table h6{
@@ -58,6 +65,8 @@ table{
     margin: auto;
     width: auto;
     text-align: center;
+    background-color: rgb(250, 241, 226);
+    border: 5px solid white;
     
 }
 
@@ -73,4 +82,74 @@ table{
 td{
     padding: 10px;
     border: 1px solid lightgray;
+}
+
+.bgi{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    border: 10px solid white;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url(../img/aboutus/bottom/5.jpg);
+}
+/* room */
+.roomout{
+    background-color: #7e7d7d;
+    margin-bottom: 30px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    box-shadow: 2px 2px 2px black;
+}
+
+.room{
+    display: flex;
+    padding-top: 30px;
+    background-color: #d4be86;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.roomin{
+    
+    border: 1px solid lightgray;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+    width: 400px;
+    margin: auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15%;
+}
+
+
+.roomin img{
+    width: 400px;
+    height: 230px;
+}
+
+.roomin h3{
+    text-align: center;
+    
+}
+
+.roomin p{
+    padding: 25px;
+
+}
+
+#book{
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    
 }
