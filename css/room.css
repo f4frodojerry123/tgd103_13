@@ -1,0 +1,76 @@
+@import url(reset.css);
+@import url(common.css);
+/* top-main */
+.top-main{
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(../img/aboutus/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    opacity: 80%;
+}
+.tpcontent{
+    
+    text-align: center;
+    position: absolute;
+    z-index: 5;
+    width: 40%;
+    top: 40%; 
+    margin-left: 350px;
+   
+}
+
+.tpcontent h1{
+    /* opacity: 100%; */
+    font-weight: bolder;
+
+}
+
+.tpcontent h3{
+    margin-top: 50px;
+    font-weight: bold;
+}
+/* room table */
+.table{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.table h3{
+    text-align: center;
+    color: #48684e;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.table h6{
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table{
+    margin: auto;
+    width: auto;
+    text-align: center;
+    
+}
+
+.table th{
+    color: #48684e;
+    background-color: ;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f7e8c2;
+    border: 1px solid lightgray;
+    
+}
+td{
+    padding: 10px;
+    border: 1px solid lightgray;
+}
