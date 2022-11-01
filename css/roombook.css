@@ -1,0 +1,86 @@
+@import url(reset.css);
+@import url(common.css);
+
+.outblock{
+    padding-top: 120px;
+}
+
+.dateinfo{
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    width: 800px;
+    text-align: center;
+    background-color: wheat;
+
+
+}
+
+table{
+    margin: auto;
+    background-color: white;
+    
+}
+table th{
+    width: 120px;
+    border: 1px solid rgb(114, 113, 113);
+}
+
+table td{
+    width: 120px;
+    border: 1px solid rgb(114, 113, 113);
+}
+
+#check-in{
+    width: 110px;
+   text-align: center;
+}
+
+#roomtype{
+    height: 26px;
+    width: 118px;
+    text-align: center;
+}
+#number{
+    width: 113px;
+    height: 26px;
+    text-align: center;
+}
+
+.question{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.detail{
+    width: 800px;
+    margin: auto;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.detail h4{
+    text-align: center;
+}
+.question{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit{
+    width: 100px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.submit>button{
+    width: 100px;
+    margin: auto;
+}

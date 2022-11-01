@@ -139,6 +139,9 @@
 .main-text{
     width: 550px;
     padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     text-align: center;
     
 }
@@ -171,8 +174,10 @@
     text-align: center;
     position: relative;
 }
-.service h3{
+.service h2{
+    color: #48684e;
     padding-top: 20px;
+    font-weight: bold;
 }
 .service ul{
     margin: auto;
@@ -184,9 +189,15 @@
     justify-content: center ;
     text-align: center;
     width: 1280px;
+    
 }
 .service li{
     margin: 0 10px;
+    
+}
+
+.service li a{
+    color: #48684e;
 }
 .service img{
     width: 170px;
@@ -208,6 +219,8 @@
     left: 0;
     right: 0;
     margin:  auto;
+    color: white;
+    text-shadow: 1px 1px black;
     
 }
 
@@ -265,11 +278,13 @@
 .hotitem img{
     padding: 10px 20px;
     width: 150px;
+    height: 171px;
     border-bottom: 1px solid black;
 }
 
 .itemin{
     padding-left: 15px;
+    width: 150px;
 }
 
 .hotitem p{

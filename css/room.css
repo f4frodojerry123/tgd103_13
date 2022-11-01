@@ -41,7 +41,7 @@
 }
 
 .table>div{
-    background-color: rgb(249, 233, 214);
+    /* background-color: rgb(249, 233, 214); */
     border-radius: 25px;
 }
 
@@ -65,10 +65,12 @@ table{
     margin: auto;
     width: auto;
     text-align: center;
-    background-color: rgb(250, 241, 226);
+    
     border: 5px solid white;
     
 }
+
+
 
 .table th{
     color: #48684e;
@@ -82,20 +84,16 @@ table{
 td{
     padding: 10px;
     border: 1px solid lightgray;
+    background-color: rgb(250, 241, 226);
 }
 
-.bgi{
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-    border: 10px solid white;
-    margin: auto;
-    margin-top: 30px;
-    background-image: url(../img/aboutus/bottom/5.jpg);
+.tablebottom{
+    display: flex;
+    
 }
 /* room */
 .roomout{
-    background-color: #7e7d7d;
+    background-color: rgb(249, 233, 214);
     margin-bottom: 30px;
     border-top: 10px solid white;
     border-bottom: 10px solid white;
@@ -105,7 +103,7 @@ td{
 .room{
     display: flex;
     padding-top: 30px;
-    background-color: #d4be86;
+    background-color: rgb(247, 232, 194);
     flex-wrap: wrap;
     width: 1000px;
     margin: auto;
@@ -114,20 +112,20 @@ td{
 }
 
 .roomin{
+    box-shadow: 2px 2px 2px 2px rgb(83, 80, 80);
     
-    border: 1px solid lightgray;
-    background-color: #fff;
+    background-color: rgb(250, 241, 226);
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
-    box-sizing: border-box;
+    
     width: 400px;
     margin: auto;
 
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 15%;
+    border-radius: 0 0 15% 15%;
 }
 
 
@@ -137,19 +135,32 @@ td{
 }
 
 .roomin h3{
+    color: #48684e;
+    padding-top: 10px;
     text-align: center;
     
 }
 
-.roomin p{
+.roomin ul{
     padding: 25px;
 
 }
 
 #book{
-    width: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: rgb(244, 199, 133);
+    padding: 5px 10px;
     margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
     
+}
+
+#book:hover{
+    background-color: #ec930e;
+    color: white;
+    transform: scale3d(1.2,1.2,2);
+}
+
+.dateinfo input{
+    border-radius: 10px;
 }

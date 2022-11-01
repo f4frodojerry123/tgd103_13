@@ -57,12 +57,12 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    text-align: center;
+    
     background-color: #fff;
 }
 
 .mid div{
-    margin: 80px;
+    margin: 30px;
 }
 
 .mid img{
@@ -73,19 +73,34 @@
 .mid h6{
     margin-top: 40px;
     font-size: 24px;
+    color: #48684e;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px white;
 }
 
 .mid ul{
     width: 350px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     margin-top: 20px;
+    
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    list-style: square inside;
     
 }
 
 .mid li{
     text-align: left;
+  
+    width: 300px;
+    margin: auto;
     margin-top: 5px;
+    padding-top: 5px;
+     border-bottom: 2px solid lightgray;
+}
+#one {
     
+
 }
 
 /* bot-list */

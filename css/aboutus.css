@@ -199,9 +199,11 @@
     background-color: #f7e8c2;
     padding-top: 80px;
     padding-bottom: 80px;
+    
 }
 .bot-img img{
     width: 500px;
+    /* height: 277px; */
 }
 .bot-img h4{
     width: 400px;
@@ -219,6 +221,7 @@
     margin: auto;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 50px;
 
 }
 .bot-img-content{
@@ -247,18 +250,18 @@
     order: -1;
 }
 /* map */
-.contact{
+.contactm{
     display: flex;
     text-align: center;
     width: 1100px;
     margin: auto;
 }
-.contact h4{
+.contactm h4{
     margin-top: 20px;
     color: #48684e;
 }
 
-.contact p{
+.contactm p{
     color: #777777;
     margin-top: 10px;
     line-height: 1.8;

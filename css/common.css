@@ -129,6 +129,7 @@ a{
 .footer img{
     width: 130px;
     padding-left: 28px;
+    padding-top: 10px;
 }
 
 .footer ul{
@@ -140,6 +141,9 @@ a{
 
 .contact{
     display: flex;
+}
+.contact a:nth-child(2){
+    padding-top: 10px;
 }
 
 .footer .contact img{

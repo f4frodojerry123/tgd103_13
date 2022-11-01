@@ -1,0 +1,111 @@
+@import url(reset.css);
+@import url(common.css);
+
+.block{
+    padding-top: 200px;
+    margin: auto;
+    
+    /* background-color: #fff; */
+}
+
+.login{
+    padding: 20px 30px;
+    border: 2px solid lightgray;
+    background-color: #FFF4D8;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+
+.login h2{
+    text-align: center;
+    /* color: #48684e; */
+    padding-top: 50px;
+    
+}
+
+.account{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.account>div{
+    margin: auto;
+    line-height: 1.2;
+    
+}
+
+.bot{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot a{
+    width: 150px;
+}
+
+
+
+input {
+    border: none;
+    margin-left: 5px;
+    margin: auto;
+    width: 250px;
+    line-height: 2.5;
+    font-size: 16px;
+}
+
+span{
+    margin-right: 20px;
+}
+
+
+
+.btn-submmit{
+    display: block;
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.otherlog{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.fb{
+    width: 100px;
+    margin-right: 70px;
+    
+}
+.fba{
+    width: 120px;
+     margin-left: 70px;
+}
+
+.otherlog img{
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+}
+
+.otherlog a{
+    display: flex;
+}
+.otherlog p{
+    padding-top: 15px;
+    margin-left: 10px;
+}
