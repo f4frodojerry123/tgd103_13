@@ -49,12 +49,61 @@ table td{
 }
 
 .question{
-    width: 500px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
 
+}
+
+.question-checkindate{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.question-checkindate input{
+
+}
+
+.question-time{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.question input{
+    
+    border-radius: 5px;
+    border-color: lightgray;
+    line-height: 1.8;
+}
+.question-num{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+}
+.block3{
+    display: flex;
+}
+
+.question-num input{
+    width: 100px;
+}
+
+.question-phone{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
 }
 
 .detail{
