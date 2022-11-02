@@ -78,6 +78,13 @@ span{
     height: 30px;
     margin: auto;
     margin-top: 30px;
+    border: none;
+    background-color: #fff;
+}
+
+.btn-submmit:hover{
+    background-color: #F1DAA0;
+    border: 1px solid lightgray;
 }
 
 .otherlog{
