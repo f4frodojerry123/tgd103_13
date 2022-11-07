@@ -7,25 +7,42 @@ body{
 
 h1{
     font-size: 64px;
+    font-weight: bold;
+    color: #48684e;
     
 }
 
 h2{
     font-size: 48px;
+    font-weight: bold;
+    color: #48684e;
 }
 
 h3{
     font-size: 25px;
+    font-weight: bold;
+    color: #48684e;
 }
 h4{
     font-size: 22px;
     font-weight: bold;
+    color: #48684e;
 }
 h6{
     font-size: 16px;
+    font-weight: bold;
+    color: #48684e;
 }
 li{
     font-size: 16px;
+    color: #777777;
+    font-weight: 600;
+}
+.hotitem li{
+    color: black;
+}
+.itembox li{
+    color: black;
 }
 #header li{
     font-size: 18px;
@@ -34,6 +51,7 @@ li{
 p{
     font-size: 16px;
     color: #777777;
+    font-weight: 600;
 }
 li{
     display: block;   
@@ -56,7 +74,7 @@ a{
     height: 60px;
     line-height: 60px;
     border-radius: 25px;
-    background-color: #DC9731;
+    background-color: #f1daa0;
 }
 
 
@@ -104,6 +122,13 @@ a{
     border-right: 1px solid lightsalmon;
     background-color: #DC9731;    
 }
+
+.trbtn{
+    border-left: 1px solid lightsalmon;
+    border-right: 1px solid lightsalmon;
+    background-color: #DC9731;    
+}
+
 
 
 
