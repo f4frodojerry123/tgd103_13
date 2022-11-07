@@ -11,7 +11,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
-    opacity: 80%;
+    opacity: 100%;
+    color: #777777;
+    
 }
 .tpcontent{
     
@@ -34,25 +36,10 @@
     font-weight: bold;
 }
 
-.tpcontent .btn1{
-    display: inline-block;
-    margin: 30px;  
-    margin-top: 40px;
-    font-size: 24px;
-    border: 1px solid ;
-    width: 120px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 25px;
-    background-color: #DC9731;
-     
-}
-
-
 /* comment */
 
 .comment{
-    
+    color: #777777;
     margin: auto;
     width: 800px;
     border: 2px solid gray;
@@ -64,7 +51,7 @@
 }
 
 .comment h4{
-    color: #DC9731;
+    color: #48684e;
     margin-bottom: 15px ;
 
 }
@@ -93,6 +80,7 @@
     display: flex;
     justify-content: center ;
     /* align-items: center; */
+
 }
 
 .check-in img{
@@ -148,7 +136,7 @@
 
 .main-text h2{
     
-    color: #ec930e;
+    color: #48684e;
 }
 
 .main-text p{

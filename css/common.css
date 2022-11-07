@@ -7,6 +7,7 @@ body{
 
 h1{
     font-size: 64px;
+    
 }
 
 h2{
@@ -31,7 +32,8 @@ li{
 }
 
 p{
-    font-size: 15px;
+    font-size: 16px;
+    color: #777777;
 }
 li{
     display: block;   
@@ -45,10 +47,22 @@ a{
 }
 
 .btn1{
+    display: inline-block;
+    margin: 30px;
+    margin-top: 40px;
     font-size: 24px;
     border: 1px solid;
+    width: 120px;
+    height: 60px;
+    line-height: 60px;
     border-radius: 25px;
     background-color: #DC9731;
+}
+
+
+.btn1:hover{
+    background-color: #ec930e;
+    color: white;
 }
 
 /* header */

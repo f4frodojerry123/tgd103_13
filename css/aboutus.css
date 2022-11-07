@@ -104,12 +104,13 @@
 .mid p{
     text-align: left;
     padding-top: 10px;
-    font-size: 12px;
+    
 }
 
 .mid ul{
     text-align: left;
     padding-top: 30px;
+    color: #777777;
 }
 /* slider */
 .sli-bg{

@@ -36,29 +36,17 @@ body{
     font-weight: bold;
 }
 
-.tpcontent .btn1{
-    display: inline-block;
-    margin: 30px;  
-    margin-top: 40px;
-    font-size: 24px;
-    border: 1px solid ;
-    width: 120px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 25px;
-    background-color: #DC9731;
-     
-}
+
 /* mid banner */
 .midbanner{
-    background-color: #f1daa0;
+    background-color: #FFF4D8;
     margin-top: 5px;
     /* border: 5px solid white; */
-    box-shadow: -2px -2px 3px 1px black ;
+    border-top: 5px solid #777777;
 }
 
 .midbanner>div{
-    background-color: #FFF4D8;
+    
     position: relative;
     display: flex;
     justify-content: center;
@@ -112,9 +100,9 @@ body{
     background-color: #f1daa0;
     padding-top: 70px;
     padding-bottom: 90px;
-    border: 5px solid white;
+    border-top: 5px solid #777777;
     margin-top: 5px;
-    box-shadow: -2px -2px 3px 1px black ;
+    
 }
 .block{
     background-color: #FFF4D8;
