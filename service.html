@@ -123,5 +123,21 @@
             This work is only for practicing and creation, and has no other commercial purposes. If the work violates any intellectual property rights, please contact f4frodojerry123@gmail.com, and the work will be withdrawn as soon as possible</span>
 
     </div>
+
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script>
+        $(window).scroll(function(){    
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 120) {
+                $(".topbar_ul").addClass("topbar--colored");
+                $(".first-title__h2, .first-title__h3, .first-title__h4").addClass("title__hidden");
+            } else {
+                $(".topbar_ul").removeClass("topbar--colored");
+                $(".first-title__h2, .first-title__h3, .first-title__h4").removeClass("title__hidden");
+            }
+
+        });
+    </script>
 </body>
 </html>
