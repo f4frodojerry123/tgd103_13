@@ -90,7 +90,8 @@ a{
     background-color: white;
     height: 80px;
     z-index: 100; 
-    box-shadow: 1px 2px 1px gray;   
+    box-shadow: 1px 2px 1px gray;
+    position: relative;   
 }
 
 .nav a{
@@ -194,4 +195,56 @@ a{
 .ww{
     font-size: 10px;
     width: 800px;
+}
+
+/* rwd */
+@media screen and (max-width: 414px){
+    
+    #header{
+        position: relative;
+        width: auto;
+        height: 60px;
+    }
+
+    .tlogo{
+        height: 60px;
+        position: absolute;
+    }
+    .nav-list{
+
+    }
+
+    .nav{
+        float: none;
+        position: fixed;
+        margin: 0;
+        height: 480px;
+        width: 250px;
+        background-color: white;
+        right: -250px;
+        top: 62px;
+    }
+
+    .nav li{
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 1px solid lightgray;
+       
+    }
+
+    
+
+    .nav-list .fa{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        text-align: center;
+        
+    }
+
+    
 }
