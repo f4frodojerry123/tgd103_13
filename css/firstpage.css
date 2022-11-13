@@ -50,6 +50,7 @@
     margin-bottom: 30px;
     margin-top: 30px;
     background-color: #FFF4D8;
+    margin-right: 20px;
 }
 
 .comment h4{
@@ -62,6 +63,43 @@
     margin-bottom: 50px;
    
 }
+
+.comment-out{
+    height: 250px;
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.comment-in{
+    position: absolute;
+    display: flex;  
+}
+.changecmt{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+.changecmt-btn{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border: 1px solid lightgray;
+    background-color: #f1daa0;
+    
+   
+}
+
+.changecmt-btn:hover{
+    background-color: #ec930e;
+}
+
+/*  */
 
 .live{
     margin: 0 auto;
@@ -220,50 +258,23 @@
     
 }
 
-.goshop{
-    position: absolute;
-    background-color: #f1daa0;
-    right: 0;
-    bottom: -40px;
-    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 100px;
-    height: 80px;
-    line-height: 80px;
-    font-size: 20px;
-    font-weight: bold;
-    padding-left: 20px; ;
-    
-    margin-top: 100px;
-    display: flex;
-    
-}
-
-.goshop svg{
-    width: 20px;
-}
-
 /* hotitems */
 .hotitem{
-    width: 1280px;
-    height: 100%;
+    height: 310px;
     /* background-color: palevioletred; */
     margin: auto;
     margin-top: 100px;
     display: flex;
-    /* flex-direction: column; */
-    justify-content: center ;
     text-align: left;
     position: relative;
+    overflow: hidden;
+    
    
 }
-
-
-
 .hotitem ul{
-    width: 100%;
     display: flex;
     justify-content: center ;
-    
+    position: absolute;
 }
 
 .hotitem li{
@@ -275,9 +286,7 @@
     width: 200px;
     height: 300px;
     position: relative;
-
-    
-    
+    box-sizing: border-box;
 }
 
 .hotitem img{
@@ -313,22 +322,41 @@
 .hotitem h6{
     color: black;
 }
-
-.hotitem .left{
+.hotitem a{
+    width: 100%;
+    height: 302px;
+}
+.hot-item-out{
+    position: relative;
+    width: 1060px;
+    margin: auto;
+}
+.hot-item-out .left{
+    position: absolute;
+    left: -70px;
+    top: 0;
+    bottom: 0;
     margin-left: 0;
     background-color: #f1daa0;
     margin: auto;
     width: 60px;
     height: 200px;
     display: flex;
-    border: none;
+    border: none; 
+    
+    
+
 }
 .left svg{
     width: 30px;
     margin: auto; 
 }
 
-.hotitem .right{
+.hot-item-out .right{
+    position: absolute;
+    right: -70px;
+    top: 0;
+    bottom: 0;
     margin-left: 0;
     margin: auto;
     width: 60px;
@@ -336,6 +364,8 @@
     background-color: #f1daa0;
     display: flex;
     border: none;
+   
+    
 }
 
 .right svg{
@@ -352,6 +382,7 @@
     height: 661px;
     background-color: #fff;
     background-repeat: no-repeat;
+    
     background-position: center;
     margin-top: 30px;
     border-top: 2px solid #777777;
@@ -413,6 +444,7 @@
 .btn1:hover{
     background-color: #ec930e;
     color: white;
+    transform: scale(1.1);
 }
  
 .live a:hover{
@@ -433,3 +465,4 @@
 .buybtn:hover{
     background-color: #ec930e;
 }
+

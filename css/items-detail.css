@@ -71,19 +71,24 @@
     width: 500px;
     border: 1px solid lightgray;
     background-color: #FFF4D8;
+    padding-left: 80px;
     
 }
-/* .detail h3{
+.detail h3{
+     color: black;
+     font-size: bold;
     
-} */
+}
 
 .detail h5{
     color: #F45E4A;
     margin-top: 10px;
+    font-size: bold;
 }
 
 .detail .content{
-    margin-top: 80px;  
+    margin-top: 80px; 
+    display: block; 
 }
 
 .content li{
@@ -105,16 +110,25 @@
     margin-right: 20px;
     border-radius: 5px;
 }
-.bot-thing span{
+.bot-thing p{
     margin-right: 30px;
     color: #F45E4A;
+    font-size: bold;
+    font-size: 18px;
 }
 
 .bot-thing h6{
-    margin-right: 20px;
+    
+    color: black;
+    margin: auto;
+    margin-right: 15px;
 }
 .bot-thing input{
     width: 30px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+   text-align: center;
+   
 }
 /* hover */
 .buybtn:hover{
@@ -123,7 +137,6 @@
 
 /* hotitems */
 .hotitem{
-    
     display: flex;
     flex-direction: column;
     width: 1000px;
@@ -131,50 +144,81 @@
     margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+    
 }
 
-.hotitem h3{
+.hotitem>h3{
     text-align: center;
     padding-bottom: 20px;
+    color: black;
 }
-
-
 
 .hotitem ul{
     width: 100%;
     display: flex;
     justify-content: center ;
+    box-sizing: border-box;
 }
 
 .hotitem li{
-    border: 1px solid lightgray;
+    border: 2px solid lightgray;
     margin-left: 10px;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
-    /* border: 1px solid black; */
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    
+    
 }
+
 
 .hotitem img{
     padding: 10px 20px;
-    width: 150px;
+    margin: auto;
+    display: block;
     height: 171px;
-    border-bottom: 1px solid black;
+    
 }
 
 .itemin{
     padding-left: 15px;
+    width: 180px;
+    background-color: #fff;
+    border-top: 1px solid black;
+    padding-bottom: 10px;
+    
+}
+
+.itemin>div{
+    display: flex;
 }
 
 .hotitem p{
     font-size: 18px;
-    color: #F45E4A; 
-    margin-left: 5px;  
+    color: #F45E4A;
+    bottom: 5px;
+    display: block;
+    text-align: center;
+    margin: auto;
 
 }
 
 .hotitem h6{
     margin: 5px 10px;
+    color: black;
 }
 
 .hotitem .buybtn{
     margin-left: 5px;
+}
+
+.hotitem li:hover{
+    
+    border: 2px solid #ec930e;
+    box-sizing: border-box;  
+    transform: scale(1.05);
+}
+.buybtn:hover{
+    background-color: #ec930e;
+    transform: scale(1.1);
 }

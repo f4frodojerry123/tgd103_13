@@ -112,20 +112,17 @@ td{
 }
 
 .roomin{
-    box-shadow: 2px 2px 2px 2px rgb(83, 80, 80);
-    
     background-color: rgb(250, 241, 226);
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
-    
     width: 400px;
     margin: auto;
-
     margin-top: 20px;
     margin-bottom: 20px;
-    border-radius: 0 0 15% 15%;
+    border-radius: 0 0 8% 8%;
+    border: 2px solid lightgray;
 }
 
 
@@ -143,6 +140,7 @@ td{
 
 .roomin ul{
     padding: 25px;
+    margin: auto;
 
 }
 
@@ -158,7 +156,7 @@ td{
 #book:hover{
     background-color: #ec930e;
     color: white;
-    transform: scale3d(1.2,1.2,2);
+    transform: scale(1.1);
 }
 
 .dateinfo input{

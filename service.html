@@ -20,11 +20,11 @@
             <li ><a href="room.html">房型房價</a></li>
             <li id="memberbtn">
                 <a href="member.html" id="membership">
-                    會員專區
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                         <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
                     </svg>
-                </a>    
+                    會員專區
+                </a>
             </li>
         </ul>
         </div>    
@@ -53,8 +53,8 @@
     <!-- </div> -->
     <div class="block-out">
         <div class="block">
-            <img src="img/service/feed-22.jpg" alt="">
-            <div>
+            <img src="img/service/feed-22.jpg" alt="" class="aa">
+            <div class="aa1">
                 <h2>客製化餵食</h2>
                 <p>貓愛旅店致力於提供所有貓咪客戶們賓至如歸的服務，針對每一位貓貓我們可以為主人提供獨一無二的客製化餵食服務。
                 若是有任何疑問，歡迎跟我們聯絡!
@@ -62,29 +62,29 @@
             </div>
         </div>
         <div class="blockright">
-            <img src="img/service/shower-2.jpg" alt="">
-            <div>
+            <img src="img/service/shower-2.jpg" alt="" class="bb">
+            <div class="bb1">
                 <h2>美容服務</h2>
                 <p>貓愛提供每一位入住的顧客，結束住宿回家時一次免費的美容服務，讓您回家時看到香噴噴的貓貓。此外也提供非入住者美容服務，如有需要請來電詢問，謝謝!</p>
             </div>
         </div> 
         <div class="block">
-            <img src="img/service/play-2.jpg" alt="">
-            <div>
+            <img src="img/service/play-2.jpg" alt="" class="cc">
+            <div class="cc1">
                 <h2>專人陪玩</h2>
                 <p>每一位入住的貓貓每天都會有專門的員工陪玩時段，視貓咪適應的情況，也會讓不同貓咪們適當的接觸，一起玩耍!</p>
             </div>
         </div> 
         <div class="blockright">
-            <img src="img/service/doc-2.jpg" alt="">
-            <div>
+            <img src="img/service/doc-2.jpg" alt="" class="dd">
+            <div class="dd1">
                 <h2>特約醫生照護</h2>
                 <p>貓愛旅店有長久的服務歷史，與特約診所進行合作。若是貓咪入店期間有身體不適的情況，可以在第一時間進行治療!</p>
             </div>
         </div>  
         <div class="block">
-            <img src="img/service/shop-2.jpg" alt="">
-            <div>
+            <img src="img/service/shop-2.jpg" alt="" class="ee">
+            <div class="ee1">
                 <h2>線上商城</h2>
                 <p>貓愛旅店致力於提供最全面、最完善的服務，擁有最優質的商品儲備，因此我們開設了線上商城，給希望購買的您服務!</p>
             </div>
@@ -126,17 +126,65 @@
 
     <script src="./js/jquery-3.6.1.min.js"></script>
     <script>
+        $(".midbanner img").css("display", "none");
+        $(".midbanner ").css("height", "500px");
+        $(".block").css("height","343px");
+        $(".blockright").css("height","343px");
+        $(".block").children("img").css("display", "none");
+        $(".blockright").children("img").css("display", "none");
+        $(".block").children("div").css("display", "none");
+        $(".blockright").children("div").css("display", "none");
         $(window).scroll(function(){    
             var scroll = $(window).scrollTop();
 
             if (scroll >= 120) {
-                $(".topbar_ul").addClass("topbar--colored");
-                $(".first-title__h2, .first-title__h3, .first-title__h4").addClass("title__hidden");
-            } else {
-                $(".topbar_ul").removeClass("topbar--colored");
-                $(".first-title__h2, .first-title__h3, .first-title__h4").removeClass("title__hidden");
-            }
+                $(".midbanner .img-a").show(800),
+                $(".midbanner .img-b").show(1100),
+                $(".midbanner .img-c").show(1400),
+                $(".midbanner .img-d").show(1700),
+                $(".midbanner .img-e").show(2000)
+            } else{
 
+            };       
+        });
+        $(window).scroll(function(){    
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 620) {
+                $(".aa").fadeIn(1000),
+                $(".aa1").fadeIn(1000)
+                
+            } else{
+
+            };
+            if (scroll >= 963) {
+                $(".bb").fadeIn(1000),
+                $(".bb1").fadeIn(1000)
+                
+            } else{
+
+            }; 
+            if (scroll >= 1343) {
+                $(".cc").fadeIn(1000),
+                $(".cc1").fadeIn(1000)
+                
+            } else{
+
+            };     
+            if (scroll >= 1743) {
+                $(".dd").fadeIn(1000),
+                $(".dd1").fadeIn(1000)
+                
+            } else{
+
+            };     
+            if (scroll >= 2086) {
+                $(".ee").fadeIn(1000),
+                $(".ee1").fadeIn(1000)
+                
+            } else{
+
+            };         
         });
     </script>
 </body>
