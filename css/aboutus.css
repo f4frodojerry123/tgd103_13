@@ -292,3 +292,24 @@
 .iframe{
     margin: auto;
 }
+.nav-list .fa{
+    display: none;
+}
+/*  */
+@media screen and(max-width: 414px){
+    .nav-list .fa{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        text-align: center;
+        
+    }
+    .tpcontent{
+        
+        margin: 0px;
+    }
+}

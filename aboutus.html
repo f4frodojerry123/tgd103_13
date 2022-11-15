@@ -12,6 +12,7 @@
     <div id="header">
         <a href="index.html"><img src="img/Group 3.png" alt="" class="tlogo"></a>
         <div class="nav-list">
+            <i class="fa fa-bars" style="display: none;"></i>
         <ul class="nav">
             <li id="trbtn"><a href="aboutus.html">關於我們</a></li>
             <li><a href="FAQ.html">常見問題</a></li>
@@ -34,12 +35,11 @@
         <div class="tpcontent">
             <h1>About us</h1>
             <h3>貓旅館&線上商城 <br>貓安心 你放心</h3>
-            <!-- <a href="#" class="btn1">預約住宿</a>
-            <a href="#" class="btn1">線上商城</a> -->
+           
         </div>      
     </div>
     <!-- clerk -->
-    <div class="clerk">
+    <!-- <div class="clerk">
         <div class="intro">
             <img src="img/aboutus/a.png" alt="">
             <h3>店長</h3>
@@ -52,9 +52,9 @@
             <span>S</span>
             <p></p>
         </div>
-    </div>
+    </div> -->
     <!-- mid content -->
-    <div class="mid">
+    <!-- <div class="mid">
         <div>
             <div class="mid-content">
                 <h3>貓旅店住宿服務</h3>
@@ -83,9 +83,9 @@
                 </ul>
             </div>
         </div>  
-    </div>
+    </div> -->
     <!-- slider -->
-    <div class="sli-bg">
+    <!-- <div class="sli-bg">
     <div id="slider">
         
         <div class="sli-list">
@@ -99,9 +99,9 @@
         </div>
       
     </div>
-    </div>
+    </div> -->
     <!--  -->
-    <div class="bot-img">
+    <!-- <div class="bot-img">
     <div class="one">
         <img src="img/aboutus/bottom/1.png" alt=""> 
         <div class="bot-img-content">
@@ -124,9 +124,9 @@
         </div>
     </div>  
 
-    </div>   
+    </div>    -->
     <!-- map -->
-    <div class="contactm">
+    <!-- <div class="contactm">
         <div class="map-pic">
             <img src="img/aboutus/bottom/5.jpg" alt="">
             <img src="img/aboutus/bottom/6.png" alt="">
@@ -143,7 +143,7 @@
         </div>
         
         
-    </div>
+    </div> -->
     <!-- footer -->
     <div class="footer">
         <img src="img/Group 3.png" alt="">
@@ -187,5 +187,16 @@
             slider_img.style.backgroundImage = `url('${pic}')`; //將slider中img物件的src改為點擊圖片的src
         }
     </script>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script>
+        $(".fa").on("click",function(){
+            if($(".nav").hasClass("now")){
+            $(".nav").animate({right:'-250px'},750).removeClass("now")
+            }else{
+            $(".nav").animate({right:'0px'},750).addClass("now")
+            }
+        })
+    </script>
+
 </body>
 </html>
