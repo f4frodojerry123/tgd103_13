@@ -197,11 +197,7 @@ a{
     width: 800px;
 }
 
-.fa-solid {
-    font-family: var(--fa-style-family,"Font Awesome 6 Free");
-    font-weight: var(--fa-style,900);
-    font-size: 60px;
-}
+
 /* rwd */
 @media screen and (max-width: 414px){
     
