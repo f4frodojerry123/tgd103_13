@@ -151,6 +151,7 @@
 }
 #indicator li img{
     max-width: 100%;
+    height: 80px;
     border: 2px solid wheat;
 }
 #slider .left{
@@ -292,12 +293,54 @@
 .iframe{
     margin: auto;
 }
-.nav-list .fa{
+
+.rwdmap{
     display: none;
 }
+i .fa-solid{
+    /* display: none; */
+    width: 60px;
+    height: 60px;
+}
 /*  */
-@media screen and(max-width: 414px){
-    .nav-list .fa{
+@media screen and (max-width: 414px){
+    #header{
+        position: relative;
+        width: auto;
+        height: 60px;
+    }
+
+    .tlogo{
+        height: 60px;
+        position: absolute;
+    }
+    .nav-list{
+
+    }
+
+    .nav{
+        float: none;
+        position: fixed;
+        margin: 0;
+        height: 480px;
+        width: 250px;
+        background-color: white;
+        right: -250px;
+        top: 62px;
+    }
+
+    .nav li{
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 1px solid lightgray;
+       
+    }
+
+    
+    i .fa-solid{
+        display: block;
+    }
+    .nav-list .fa-solid{
         display: block;
         position: absolute;
         right: 0;
@@ -307,9 +350,136 @@
         line-height: 60px;
         text-align: center;
         
-    }
-    .tpcontent{
         
-        margin: 0px;
+    }
+    .top-main{
+        width: 100%;
+        padding-top: 60px;
+        width: 100%;
+        height: 400px;
+        background-position: center ;
+        opacity: 100%;
+    }
+    
+    .tpcontent{
+        position:static;
+        margin-left: 0;
+        width: 60%;
+        margin-top: 50px;
+    }
+    .tpcontent h3{
+        margin-top: 20px;
+    }
+    .clerk{
+        box-sizing: border-box;
+    }
+    .intro img{
+        width: 100px;
+        border-bottom: 3px solid orange;
+        margin: auto;
+    }
+    .intro p{
+        width: 120px;
+    }
+    .mid >div{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .mid-content{
+        padding: 20px;
+    }
+    .mid ul{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .pic{
+        width: 100%;
+        height: 330px;
+        order: 5;
+    }
+    .his{
+        padding: 0;
+        padding: 20px;
+        border-top: 1px solid black;
+    }
+    #slider{
+        margin: 0;
+        width: 100%;
+    }
+    #indicator{
+        width: 100%;
+        box-sizing: border-box;
+        padding-bottom: 0;
+        height: auto;
+        justify-content: space-evenly;
+        padding-left: 10px;
+        background-color: lightgray;
+    }
+    #indicator li{
+        padding-top: 5px;
+      
+        width: 100%;
+        height: auto;
+    }
+    #indicator li img {
+        max-width: 80px;
+        height: 64px;
+        border: 2px solid wheat;
+        margin: auto 0;
+    }
+
+    .bot-img{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bot-img .one{
+        padding: 10px;
+        box-sizing: border-box;
+        width: 70%;
+        flex-direction: column;
+        
+        
+    }
+    .bot-img img{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+
+    }
+    .bot-img h4{
+        width: auto;
+        padding: 20px;
+        margin-top: 0;
+    }
+    .bot-img p{
+        width: auto;
+        padding: 10px;
+    }
+    .bot-img .two{
+        padding: 10px;
+        box-sizing: border-box;
+        width: 70%;
+        flex-direction: column;
+    }
+    .two .bot-img-content{
+        order: 0;
+    }
+    .map-pic{
+        display: none;
+    }
+    .contactm{
+        width: 100%;
+    }
+    .map{
+        width: 80%;
+        height: 80%;
+    }
+    .normap{
+        display: none;
+    }
+    .rwdmap{
+        display: block;
+        margin: auto;
+        overflow: hidden;
     }
 }
