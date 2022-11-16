@@ -470,6 +470,12 @@
     display: none;
 }
 
+.right2{
+    display: none;
+}
+.left2{
+    display: none;
+}
 /*  */
 .comment-out2{
     display: none;
@@ -672,10 +678,11 @@
         width: 20px;
     }
     .hot-item-out .right2{
+        display: block;
         position: absolute;
         background-color: #f1daa0;
         border: none;
-        display: block;
+        
         width: 20%;
         height: 50px;
         top: -50px;
@@ -688,12 +695,13 @@
         width: 20px;
     }
     .hot-item-out .left2{
+        display: block;
         position: absolute;
         background-color: #f1daa0;
         border: none;
         position: absolute;
         border: none;
-        display: block;
+        
         width: 20%;
         height: 50px;
         top: -50px;
