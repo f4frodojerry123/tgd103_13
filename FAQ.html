@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
     <link rel="stylesheet" href="css/FAQ.css">
+    <script src="https://kit.fontawesome.com/85f014293c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- 頂部選單 -->
@@ -58,7 +59,7 @@
                 <li>貓齡限制3個月到14歲之間</li>
                 <li>有效時限內預防針施打及完成除蟲並記得提供預防針手冊</li>
                 <li>請先告知貓咪是否有重大疾病史</li>
-                <li></li>
+               
             </ul>
         </div>
         <div>
@@ -89,7 +90,7 @@
             <img src="img/aboutus/a.png" alt="" class="fade">
                 <div class="slide-click">
                 <h6>
-                    住宿有甚麼必須的條件？
+                    住宿有那些條件？
                     <button class="down-btn"><div></div></button>
                 </h6>
                 <div class="tri" ></div>
@@ -107,7 +108,7 @@
             <img src="img/aboutus/a.png" alt="" class="fade">
                 <div class="slide-click">
                 <h6>
-                    住宿有甚麼必須的條件？ 
+                    住宿有那些條件？
                     <button class="down-btn"><div></div></button>
                 </h6>
                 <div class="tri"></div>
@@ -125,7 +126,7 @@
             <img src="img/aboutus/a.png" alt="" class="fade">
                 <div class="slide-click">
                 <h6>
-                    住宿有甚麼必須的條件？ 
+                    住宿有那些條件？
                     <button class="down-btn"><div></div></button>
                 </h6>
                 <div class="tri"></div>
@@ -143,7 +144,7 @@
             <img src="img/aboutus/a.png" alt="" class="fade">
             <div class="slide-click">
                 <h6>
-                    住宿有甚麼必須的條件？ 
+                    住宿有那些條件？
                     <button class="down-btn"><div></div></button>
                 </h6>
                 <div class="tri"></div>
@@ -200,8 +201,16 @@
             $(this).prev(".fade").toggle(500);
             $(this).children(".tri").fadeToggle(500)
         })
-       
-    </script>
+    //    nav
+
+        $(".fa").on("click",function(){
+            if($(".nav").hasClass("now")){
+            $(".nav").animate({right:'-250px'},750).removeClass("now")
+            }else{
+            $(".nav").animate({right:'0px'},750).addClass("now")
+            }
+        })
+</script>
 </body>
 </body>
 </html>
