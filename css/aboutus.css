@@ -394,6 +394,7 @@
         width: 100%;
         height: 330px;
         order: 5;
+        background-position: center;
     }
     .his{
         padding: 0;
@@ -483,5 +484,7 @@
         display: block;
         margin: auto;
         overflow: hidden;
+        width: 90%;
+        height: 90%;
     }
 }

@@ -198,6 +198,10 @@ a{
     width: 800px;
 }
 
+.nav-list .fa{
+    display: none;
+}
+
 
 /* rwd */
 @media screen and (max-width: 414px){
