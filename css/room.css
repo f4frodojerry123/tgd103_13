@@ -76,15 +76,22 @@ table{
     color: #48684e;
     /* background-color: ; */
     font-weight: bold;
-    padding: 10px;
+    padding: 3px;
     background-color: #f7e8c2;
     border: 1px solid lightgray;
+    font-size: 12px;
     
 }
+
+th.first{
+    width: 60px;
+}
+
 td{
-    padding: 10px;
+    padding: 3px;
     border: 1px solid lightgray;
     background-color: rgb(250, 241, 226);
+    font-size: 12px;
 }
 
 .tablebottom{

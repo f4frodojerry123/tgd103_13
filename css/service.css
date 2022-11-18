@@ -287,12 +287,26 @@ body{
     }
     .block>div{
         padding: 0;
-        padding: 30px;
+        padding: 20px;
         width: 200px;
+        text-align: left;
+    }
+    .block>div h2{
+        text-align: center;
+    }
+    .block>div p{
+        padding-left: 3px;
     }
     .blockright>div{
         padding: 0;
-        padding: 30px;
+        text-align: left;
+        padding: 20px;
+    }
+    .blockright>div h2{
+        text-align: center;
+    }
+    .blockright>div p{
+        padding-right: 3px;
     }
     .block-out{
         padding: 0;
