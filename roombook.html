@@ -169,5 +169,16 @@
 
     </div>
     
-    
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script>
+        // 
+        $(".fa").on("click",function(){
+            if($(".nav").hasClass("now")){
+            $(".nav").animate({right:'-250px'},750).removeClass("now")
+            }else{
+            $(".nav").animate({right:'0px'},750).addClass("now")
+            }
+        })
+        //  
+    </script>
 </html>
