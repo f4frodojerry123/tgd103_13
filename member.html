@@ -37,38 +37,44 @@
             <h2>登入</h2>
             <div class="account">
                 <div>
-                    <span>帳號:</span>
-                    <input type="text" placeholder="請輸入帳號">
+                    <span class="yyy">帳號:</span>
+                    <input type="text" placeholder="請輸入帳號" class= "loginfo">
                 </div>
             <div>
-                    <span>密碼:</span>
-                    <input type="text" placeholder="請輸入密碼">
+                    <span
+                    class="yyy">密碼:</span>
+                    <input type="text" placeholder="請輸入密碼" class= "loginfo">
                 </div>
+                
+                <div class="bot">
+                    <a href="index.html">忘記密碼</a>
+                    <a href="index.html">註冊帳號</a>
+                </div>
+
+                <input type="submit" id = "submit" value="登入" >
+                
             </div>
             
-            <button class="btn-submmit">
-                <a href="index.html">登入</a>
-            </button>
+            
+            
+                
+           
 
             <div class="otherlog">
                 <div class="fba">
                     <a href="index.html">
                         <img src="img/gmail.png " alt="">
-                        <p>以Gmail登入</p>
+                        
                     </a>
                 </div>
                 <div class="fb">
                     <a href="index.html">
                         <img src="img/🦆 icon _Facebook_.png" alt="">
-                        <p>以FB登入</p>
+                        
                     </a>
                 </div>
             </div>
 
-            <div class="bot">
-                <a href="index.html">忘記密碼</a>
-                <a href="index.html">註冊帳號</a>
-            </div>
             
         </div>
 
@@ -114,6 +120,11 @@
             }else{
             $(".nav").animate({right:'0px'},750).addClass("now")
             }
+        })
+
+        $(".loginfo").focus(function(){
+
+            $(this).addClass("boxshadow")
         })
         //  
     </script>

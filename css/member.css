@@ -2,8 +2,9 @@
 @import url(common.css);
 
 .block{
-    padding-top: 200px;
+    padding-top: 100px;
     margin: auto;
+    padding-bottom: 20px;
     
     /* background-color: #fff; */
 }
@@ -22,7 +23,7 @@
 .login h2{
     text-align: center;
     /* color: #48684e; */
-    padding-top: 50px;
+    padding-top: 10px;
     
 }
 
@@ -30,57 +31,85 @@
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-    height: 100px;
+    
     margin: auto;
     justify-content: center;
+    box-sizing: border-box;
+    
 
 }
+
 
 .account>div{
     margin: auto;
     line-height: 1.2;
     
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 30px;
+
+    
+}
+.account>div:first-child{
+    margin-top: 0;
 }
 
 .bot{
-    width: 300px;
+    margin-top: 0;
+    width: auto;
     margin: auto;
     text-align: center;
-    padding-top: 20px;
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .bot a{
-    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
 }
 
 
 
 input {
+    display: inline;
     border: none;
     margin-left: 5px;
     margin: auto;
-    width: 250px;
-    line-height: 2.5;
+    width: 300px;
+    line-height: 2;
     font-size: 16px;
+    padding-left: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
 }
 
-span{
-    margin-right: 20px;
+
+span.yyy{
+    position: absolute;
+    line-height: 2;
+    font-size: 16px;
+    left: -50px;
+    margin-top: 10px;
 }
 
-
-
-.btn-submmit{
-    display: block;
-    width: 80px;
-    height: 30px;
-    margin: auto;
-    margin-top: 30px;
-    border: none;
+#submit{
+    width: 150px;
+    box-sizing: border-box;
+    margin-top: 50px;
     background-color: #fff;
+    border: 1px solid #FFF4D8;
+    
 }
+#submit:hover{
+    background-color: #F1DAA0;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+
 
 .btn-submmit:hover{
     background-color: #F1DAA0;
@@ -90,22 +119,24 @@ span{
 .otherlog{
     display: flex;
     margin-top: 20px;
-    justify-content: space-evenly;
+    margin: auto;
+    justify-content: center;
+
 }
 
 .fb{
-    width: 100px;
-    margin-right: 70px;
+ margin: 20px;
+ 
     
 }
 .fba{
-    width: 120px;
-     margin-left: 70px;
+margin: 20px;
+    
 }
 
 .otherlog img{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     padding-top: 15px;
 }
 
@@ -115,4 +146,79 @@ span{
 .otherlog p{
     padding-top: 15px;
     margin-left: 10px;
+}
+
+.boxshadow{
+    box-shadow: 5px #9999;
+}
+
+@media screen and (max-width: 414px){
+    #header{
+        
+        width: 100%;
+        height: 60px;
+        
+        z-index: 100;
+    }
+
+    .tlogo{
+        height: 60px;
+        position: absolute;
+    }
+    .nav-list{
+
+    }
+
+    .nav{
+        float: none;
+        position: fixed;
+        margin: 0;
+        height: 480px;
+        width: 250px;
+        background-color: white;
+        right: -250px;
+        top: 62px;
+        
+    }
+
+    .nav li{
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 1px solid lightgray;
+       
+    }
+
+    
+    .nav-list .fa{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        text-align: center;
+        
+    }
+    .login{
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .account>div{
+        padding-right:0;
+    }
+    input{
+        width: 100%;
+        margin: 0 auto;
+    }
+    span.yyy{
+        margin-top: 0;
+    }
+    #submit{
+        margin-top: 20px;
+    }
+    .block{
+        padding-top: 70px;
+    }
 }

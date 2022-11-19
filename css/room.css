@@ -76,10 +76,10 @@ table{
     color: #48684e;
     /* background-color: ; */
     font-weight: bold;
-    padding: 3px;
+    padding: 10px;
     background-color: #f7e8c2;
     border: 1px solid lightgray;
-    font-size: 12px;
+    font-size: 18px;
     
 }
 
@@ -88,10 +88,10 @@ th.first{
 }
 
 td{
-    padding: 3px;
+    padding: 10px;
     border: 1px solid lightgray;
     background-color: rgb(250, 241, 226);
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tablebottom{
@@ -247,6 +247,7 @@ td{
     .room{
         width: 100%;
         flex-wrap: wrap;
+        padding-top: 0;
     }
     .roomin{
         width: 40%;
@@ -266,6 +267,26 @@ td{
     .roomout{
         border-top:none;
     }
+    .table th{
+        color: #48684e;
+        /* background-color: ; */
+        font-weight: bold;
+        padding: 3px;
+        background-color: #f7e8c2;
+        border: 1px solid lightgray;
+        font-size: 12px;
+        
+    }
+
+    th.first{
+        width: 60px;
+    }
+    td{
+        padding: 3px;
+        border: 1px solid lightgray;
+        background-color: rgb(250, 241, 226);
+        font-size: 12px;
+    }
 }
 @media screen and (max-width : 390px){
     .roomin{
@@ -275,6 +296,10 @@ td{
         width: 100%;
         height: 170px;
     }
+ 
+
+
+
 }
 @media screen and (max-width : 391px){
     td>p{
