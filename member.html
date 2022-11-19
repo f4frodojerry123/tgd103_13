@@ -40,7 +40,7 @@
                     <span class="yyy">帳號:</span>
                     <input type="text" placeholder="請輸入帳號" class= "loginfo">
                 </div>
-            <div>
+                <div>
                     <span
                     class="yyy">密碼:</span>
                     <input type="text" placeholder="請輸入密碼" class= "loginfo">
@@ -126,6 +126,20 @@
 
             $(this).addClass("boxshadow")
         })
+        $(".loginfo").blur(function(){
+
+            $(this).removeClass("boxshadow")
+        })
+
+        $(".submit").focus(function(){
+
+        $(this).addClass("boxshadow")
+        })
+        $(".submit").blur(function(){
+
+        $(this).removeClass("boxshadow")
+        })
+
         //  
     </script>
 </body>
