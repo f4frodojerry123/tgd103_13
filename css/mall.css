@@ -270,3 +270,201 @@ a{
 }
 
 
+@media screen and (max-width: 414px){
+    #header{
+        
+        width: 100%;
+        height: 60px;
+        
+        z-index: 100;
+    }
+
+    .tlogo{
+        height: 60px;
+        position: absolute;
+    }
+    .nav-list{
+
+    }
+
+    .nav{
+        float: none;
+        position: fixed;
+        margin: 0;
+        height: 480px;
+        width: 250px;
+        background-color: white;
+        right: -250px;
+        top: 62px;
+        
+    }
+
+    .nav li{
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 1px solid lightgray;
+       
+    }
+
+    
+    .nav-list .fa{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        text-align: center;
+        
+    }
+    .shop-out{
+        width: 100%;
+        padding: 0;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .shop-navlist a{
+        margin: 0 auto;
+    }
+    .shop-navlist li{
+        flex-shrink: 0;
+    }
+    .shop-navlist ul{
+        flex-wrap: wrap;
+    }
+    .suggest{
+        display: none;
+    }
+    .leftnav{
+        
+        width: 100%;
+        position: static;
+        padding: 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+        
+    }
+    .search{
+        margin: 0;
+    }
+    .leftdiv{
+        box-shadow: none;
+        
+        display: flex;
+
+    }
+    .leftdiv ol{
+        padding: 0;
+        padding-top: 5px;
+        
+        text-align: center;
+        
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .leftdiv li{
+        padding-left: 0;
+        
+        padding-bottom: 5px;
+        border-bottom: 1px solid lightgray;
+        float: left;
+        
+        border-left: 1px solid lightgray;;
+    }
+    
+    .leftdiv ol>h5{
+        border-bottom: 1px solid lightgray;
+        border-left: 1px solid lightgray;;
+    }
+    .itembox{
+        margin: 0;
+    }
+    .position{
+        box-sizing: border-box;
+        font-size: 16px;
+       padding-top: 10px;
+       padding-left: 30px;
+       padding-bottom: 20px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        
+    }
+    .position li{
+        padding: 0;
+        font-size: 16px;
+        width: auto;
+        line-height: 33px;
+        padding-left: 10px;
+    }
+    .position li>a{
+        font-size: 16px;
+    }
+    #liststyle{
+        margin: 0;
+    }
+    .itembox ul{
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+        height: 650px;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+    .itembox li{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 auto;
+        
+        height: 120px;
+        border: 1px solid black; 
+        margin-top: 10px;
+    }
+    .itembox a{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .itembox p{
+        font-size:16px;
+        display: block;
+        margin: auto;
+    }
+    .itembox h6{
+        font-size: 16px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .itemin{
+        padding: 5px;
+        width: 60%;
+        box-sizing: border-box;
+        border: none;
+        flex-grow: 1;
+        border-left: 1px solid black;
+
+    }
+    .itembox img{
+        width: 100px;
+        height: 100px;
+        
+        flex-grow: 0;
+    }
+    .itemin>div .buybtn{
+        padding: 0;
+        padding: 3px;
+    }
+    .page{
+        margin: auto;
+        padding: 0;
+    }
+
+}
