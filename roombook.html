@@ -36,105 +36,101 @@
     <!-- roomblock -->
     <div class="outblock">
         <div class="dateinfo">
-            <table>
-                <h2>查詢空房</h2>
-                <tr>
-                    <th>入住房型</th>
-                    <th>入住日期</th>
-                    <th>住宿期間</th>
-                    <th>價格</th>
-                    <th>空房情況</th>
-                    
-                </tr>
-                <tr>
-                    <td>
-                        <select name="roomtype" id="roomtype">
-                        
-                            <option value="1">
-                                家庭豪華房型
-                            </option>
-                        
-                            <option value="1">
-                                雙層舒適房型
-                            </option>
-                        
-                            <option value="1">
-                                中型舒適房型
-                            </option>
-                        
-                            <option value="">
-                                小型超值房型
-                            </option>
-                    </td>
-                    <td> 
-                        <input type="date" name="check-in" id="check-in">
-                    </td>
-                    <td>
-                        <select name="number" id="number">
-                        <option value="1">3-10日</option>
-                        <option value="1">10+日</option>
-                        <option value="1">包月</option>
-                    </td>
-                    <td>900/日</td>
-                    <td><button>按我查詢</button></td>
-                </tr>
-            </table>
+            <h4>查詢房型</h4>
+            <div class="infodetail">
+                <h5>入住房型</h5>
+                <select name="room" class="roomname">
+                    <option value="1">小型超值房型</option>
+                    <option value="2">中型舒適房型</option>
+                    <option value="3">雙層舒適房型</option>
+                    <option value="4">家庭豪華房型</option>
+                </select>
+            </div>
+            <div class="infodetail">
+                <h5>入住日期</h5>
+                <input type="date" >
+            </div>
+            <div class="infodetail">
+                <h5>入住時長</h5>
+                <select name="room" class="roomdate">
+                    <option value="1">3~10日</option>
+                    <option value="2">10+日</option>
+                    <option value="3">30日以上</option>
+                </select>
+            </div>
+            <div class="infodetail">
+                <h5>價格/日</h5>
+                <h5 id="nn">900/日</h5>
+            </div>
+            <div class="infodetail">
+                <h5>查詢空房</h5>
+                <input type="submit" class="submit-top no" value="按我查詢">
+            </div>
         </div>
 
         <!-- details -->
         <div class="detail">
-        <h4>請填寫詳細資料</h4>
-        <div class="question">
-            <span>主人姓名</span>
-            <input type="text" placeholder="請輸入姓名">
-        </div>
-        <div class="question">
-            <span>email</span>
-            <input type="email" placeholder="請輸入email">
-        </div>
-        <div class="block3">
-        <div class="question-num">
-            <span>貓咪數量</span>
-            <input type="number" placeholder="入住數量">
+                <h4>請填寫詳細資料</h4>
+                <div class="question">
+                    <h5>主人姓名</h5>
+                    <input type="text" placeholder="請輸入姓名">
+                </div>
+                <div class="question">
+                    <h5>E-mail</h5>
+                    <input type="email" placeholder="請輸入email">
+                </div>
+        
+                
+                <div class="question-phone">
+                    <h5>連絡電話</h5>
+                    <input type="tel" placeholder="請輸入電話">
+                </div>
+                <div class="question-num">
+                    <h5>貓咪數量</h5>
+                    <select name="cat" id="catnum">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6+</option>
+                    </select>
+                    
+                </div>
+                <div class="question">
+                    <h5>入住房型</h5>
+                    <select name="roomtype" id="roomtype">
+                        <option value="1">家庭豪華房型</option>
+                        <option value="1">雙層舒適房型</option>
+                        <option value="1">中型舒適房型</option>
+                        <option value="1">小型超值房型</option>
+                    </select>
+                </div>
+            
+                <div class="question-checkindate">
+                    <h5>
+                        入住日期
+                    </h5>
+                    <input type="date" class="ddd">
+                </div>
+                <div class="question-time">
+                    <h5>入住期間</h5>
+                    <select name="number" id="number">
+                        <option value="1">3-10日</option>
+                        <option value="1">10+日</option>
+                        <option value="1">包月</option>
+                    </select>
+                </div>
+
+        
+            
+                <div class="submit">
+                
+                   <input type="submit" id="bot-sub" class="no"  value="送出">
+                
+                </div>
             
         </div>
-        <div class="question-phone">
-            <span>連絡電話</span>
-            <input type="tel" placeholder="請輸入電話">
-        </div>
-        </div>
-        <div class="block3">
-        <div class="question-checkindate">
-            <span>入住日期
-            </span>
-            <input type="date">
-        </div>
-        <div class="question-time">
-            <span>入住期間</span>
-            <select name="number" id="number">
-                <option value="1">3-10日</option>
-                <option value="1">10+日</option>
-                <option value="1">包月</option>
-            </select>
-        </div>
-        </div>
-        <div class="question">
-            <span>入住房型</span>
-            <select name="roomtype" id="roomtype">
-                <option value="1">家庭豪華房型</option>
-                <option value="1">雙層舒適房型</option>
-                <option value="1">中型舒適房型</option>
-                <option value="">
-                    小型超值房型
-                </option>
-            </select>
-        </div>
-        <div class="submit">
-        
-            <button><a href="index.html">提交</a></button>
-        
-        </div>
-    </div>
     </div>
 
      <!-- footer -->
@@ -180,5 +176,64 @@
             }
         })
         //  
+        $("input").focus(function(){
+            if( !$(this).hasClass("no")){
+                $(this).addClass("boxshadow")
+            }
+            
+        })
+        $("input").blur(function(){
+
+           
+                $(this).removeClass("boxshadow")
+            
+        })
+        //
+        
+        $(".roomname").change(calprice)
+        $(".roomdate").change(calprice)
+       
+         function calprice(){
+             let roomname  = $(".roomname").val()
+             let roomdate = $(".roomdate").val()
+             let price = $("#nn")
+            if(roomname == 1 && roomdate == 1){
+                    price.html("700/日")
+                }
+            else if(roomname == 1 && roomdate == 2){
+                    price.html("650/日")
+                }
+            else if(roomname == 1 && roomdate == 3){
+                    price.html("600/日")
+                }
+            else if(roomname == 2 && roomdate == 1){
+                    price.text("900/日")
+                }
+            else if(roomname == 2 && roomdate == 2){
+                    price.text("800/日")
+                }
+            if(roomname == 2 && roomdate == 3){
+                    price.text("750/日")
+                }
+            if(roomname == 3 && roomdate == 1){
+                    price.text("1100/日")
+                }
+            if(roomname == 3 && roomdate == 2){
+                    price.text("1000/日")
+                }
+            if(roomname == 3 && roomdate == 3){
+                    price.text("950/日")
+                }
+             if(roomname == 4 && roomdate == 1){
+                    price.text("1500/日")
+                }
+             if(roomname == 4 && roomdate == 2){
+                    price.text("1350/日")
+                }
+            if(roomname == 4 && roomdate == 3){
+                    price.text("1300/日")
+                }
+            console.log("aaa")
+            }
     </script>
 </html>
