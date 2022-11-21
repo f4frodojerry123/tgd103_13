@@ -230,6 +230,7 @@ input{
 @media screen and (max-width: 800px){
     .dateinfo{
         width: 100%;
+        
     }
     .detail{
         width: 100%;
@@ -291,6 +292,13 @@ input{
         line-height: 60px;
         text-align: center;
         
+    }
+    .dateinfo{
+        flex-wrap: wrap;
+    }
+    .infodetail{
+        width: 250px;
+        margin-top: 5px;
     }
    
 }
