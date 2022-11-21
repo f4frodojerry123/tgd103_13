@@ -312,6 +312,17 @@ input{
     .infodetail{
         width: 250px;
         margin-top: 5px;
+        background-color: #FFF4D8;
+        border: none;
+    }
+    .infodetail>h5{
+        border: none;
+    }
+    .infodetail:last-child{
+        border: none;
+    }
+    #nn{
+        background-color: #fff;
     }
    
 }
