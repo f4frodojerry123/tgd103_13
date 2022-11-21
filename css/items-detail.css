@@ -358,6 +358,10 @@
         text-align: center;
         
     }
+    #membership>div{
+        padding-right: 19px;
+    }
+    
     .top-main{
         width: 100%;
         padding-top: 60px;
@@ -411,15 +415,21 @@
     .bot-thing p{
         margin: 0;
         font-size: 14px;
+        padding-top: 2px;
     }
     .bot-thing h6{
         margin: 0;
+        margin-left: 10px;
         
     }
     .bot-thing .buybtn{
         width: auto;
         margin-right: 5px;
         font-size: 14px;
+        color: black;
+    }
+    .bot-thing input{
+        width: 20px;
     }
     .hot-item-out{
         width: 100%;

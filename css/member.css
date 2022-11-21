@@ -213,6 +213,9 @@ margin: 20px;
         text-align: center;
         
     }
+    #membership>div{
+        padding-right: 19px;
+    }
     .login{
         width: 100%;
         box-sizing: border-box;

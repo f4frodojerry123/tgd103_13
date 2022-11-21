@@ -530,6 +530,9 @@
         text-align: center;
         
     }
+    #membership>div{
+        padding-right: 19px;
+    }
 
     .top-main{
         padding-top: 60px;

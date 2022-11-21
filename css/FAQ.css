@@ -5,6 +5,7 @@
     margin-bottom: 80px;
 }
 
+
 .top-main{
     padding-top: 80px;
     width: 100%;
@@ -101,7 +102,7 @@
     margin: auto;
     margin-top: 5px;
     padding-top: 5px;
-     border-bottom: 2px solid lightgray;
+     border-bottom: 2px solid gray;
 }
 #one {
     
@@ -252,6 +253,9 @@
         line-height: 60px;
         text-align: center;
         
+    }
+    #membership>div{
+        padding-right: 19px;
     }
     .top-main{
         width: 100%;
