@@ -63,7 +63,13 @@
         <div class="leftnav">
             <input type="text" class="search" placeholder="請輸入內容搜尋">
             <ul class="leftdiv">
-                <ol><h5>所有商品</h5></ol>
+                <ol><h5>
+                        所有商品
+                        <br>
+                        <i class="fa-solid fa-plus"  ></i>
+                        <i class="fa-solid fa-minus" style="display: none;"></i>
+                    </h5>
+                </ol>
                 <ol>
                     <h5>飼料/罐頭</h5>
                     <li>
@@ -95,7 +101,7 @@
                         <a href="#" id="">睡床/貓架</a>
                     </li>
                     <li>
-                        <a href="#" id="">飲水器/餵食機</a>
+                        <a href="#" id="">餵食機</a>
                     </li>
                     <li>
                         <a href="#" id="">玩具用品</a>
@@ -398,6 +404,25 @@
             }
         })
         //  
+
+        let btn = $(".leftdiv ol:first-child")
+        let list = $(".leftdiv ol").slice(1)
+        let plus = $(".fa-plus")
+        let minus = $(".fa-minus")
+        $(btn).on("click",function(){
+            if($(btn).hasClass("now")){
+                list.hide(500)
+                plus.show(1000)
+                minus.hide(800)
+                btn.width("100%").removeClass("now")
+            }else{
+                list.fadeIn(1000)
+                plus.hide(0)
+                minus.show(1000)
+                btn.width("30%").addClass("now")
+            }
+
+        })
         
     </script>
 </body>
