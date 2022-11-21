@@ -323,6 +323,13 @@ input{
     .footer li {
         padding: 5px;
     }
+    .detail>div.confirm-block{
+        width: 90%;
+        top: 100px;
+        left: 3%;
+        right: 3%;
+        padding: 10px;
+    }
 
 }
 @media screen and (max-width: 800px){
@@ -425,4 +432,5 @@ input{
     .infodetail select option{
         text-align: center;
     }
+   
 }

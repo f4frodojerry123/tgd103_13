@@ -228,11 +228,18 @@
     <script src="./js/jquery-3.6.1.min.js"></script>
     <script>
         // 
-        $(".fa").on("click",function(){
+        $(".fa").on("click",function(nav){
+            nav.stopPropagation
             if($(".nav").hasClass("now")){
             $(".nav").animate({right:'-250px'},750).removeClass("now")
+            $("#dark").hide()
+
+           
             }else{
             $(".nav").animate({right:'0px'},750).addClass("now")
+            $("#dark").show()
+            $(".confirm-block").hide()
+            
             }
         })
         //  
@@ -375,12 +382,14 @@
             $("#dark").click(function(event){
                 $(".confirm-block").hide()
                 $("#dark").hide()
-            })
-
-            $("#header").click(function(event){
+                $(".nav").animate({right:'-250px'},750).removeClass("now")
+                $("#header").click(function(event){
                 $(".confirm-block").hide()
                 $("#dark").hide()
             })
+            })
+
+            
 
             
 
