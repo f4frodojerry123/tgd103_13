@@ -1,5 +1,7 @@
 @import url(reset.css);
 @import url(common.css);
+
+
 input{
     outline: none;
     transition: transform .5s, boxshadow .5s;

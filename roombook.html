@@ -48,7 +48,7 @@
             </div>
             <div class="infodetail">
                 <h5>入住日期</h5>
-                <input type="date" value="2022/11/22"
+                <input type="text" value="  年  / 月 / 日  " id="topdate"
                 >
             </div>
             <div class="infodetail">
@@ -112,7 +112,7 @@
                     <h5>
                         入住日期
                     </h5>
-                    <input type="date" class="ddd" value="2022/11/22">
+                    <input type="text" class="ddd" value="  年  / 月 / 日  "  id="botdate">
                 </div>
                 <div class="question-time">
                     <h5>入住期間</h5>
@@ -165,7 +165,30 @@
             This work is only for practicing and creation, and has no other commercial purposes. If the work violates any intellectual property rights, please contact f4frodojerry123@gmail.com, and the work will be withdrawn as soon as possible</span>
 
     </div>
-    
+    <script>
+        var textbox1 = document.getElementById('topdate')
+
+        textbox1.onclick = function (event) {
+
+        this.type = 'date';
+
+        this.click();
+    }
+    var textbox2 = document.getElementById('botdate')
+
+        textbox2.onclick = function (event) {
+
+        this.type = 'date';
+
+        this.click();
+    }
+
+</script>
+
+
+
+
+    </script>
     <script src="./js/jquery-3.6.1.min.js"></script>
     <script>
         // 
