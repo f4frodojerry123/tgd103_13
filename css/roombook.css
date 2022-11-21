@@ -319,6 +319,7 @@ input{
         border: none;
         width: 80%;
         margin: auto;
+        text-align: center;
     }
     .infodetail:last-child{
         border: none;
@@ -329,10 +330,12 @@ input{
     .infodetail input{
         width: 80%;
         margin: auto;
+        text-align: center;
     }
     .infodetail select{
         width: 80%;
         margin: auto;
+        text-align: center;
     }
    
 }

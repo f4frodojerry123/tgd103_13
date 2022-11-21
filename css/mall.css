@@ -331,6 +331,16 @@ a{
     }
     .shop-navlist li{
         flex-shrink: 0;
+        border: none;
+        margin: 3px;
+        background-color: #ffd89d;
+        box-sizing: border-box;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        
+    }
+    .shop-navlist li:first-child{
+        border: none;
     }
     .shop-navlist ul{
         flex-wrap: wrap;
@@ -420,6 +430,8 @@ a{
     }
     #liststyle{
         margin: 0;
+        background-color: #fff;
+        color: black;
     }
     .itembox ul{
         flex-direction: column;
@@ -471,10 +483,12 @@ a{
     .itemin>div .buybtn{
         padding: 0;
         padding: 3px;
+        color: black;
     }
     .page{
         margin: auto;
         padding: 0;
+        color: black;
     }
 
 }
