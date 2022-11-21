@@ -317,12 +317,22 @@ input{
     }
     .infodetail>h5{
         border: none;
+        width: 80%;
+        margin: auto;
     }
     .infodetail:last-child{
         border: none;
     }
     #nn{
         background-color: #fff;
+    }
+    .infodetail input{
+        width: 80%;
+        margin: auto;
+    }
+    .infodetail select{
+        width: 80%;
+        margin: auto;
     }
    
 }
