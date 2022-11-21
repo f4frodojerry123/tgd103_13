@@ -159,10 +159,10 @@
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 15px 30px 15px 0;
+    border-width: 20px 40px 20px 0;
     border-color: transparent #f1daa0 transparent transparent;
     position: absolute;
-    left: 245px ;
+    left: 255px ;
     
     z-index: -1; 
 }
