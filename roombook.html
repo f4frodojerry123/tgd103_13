@@ -56,7 +56,7 @@
                 <select name="room" class="roomdate">
                     <option value="1">3~10日</option>
                     <option value="2">10+日</option>
-                    <option value="3">30日以上</option>
+                    <option value="3">30+日</option>
                 </select>
             </div>
             <div class="infodetail">
@@ -89,22 +89,22 @@
                 <div class="question-num">
                     <h5>貓咪數量</h5>
                     <select name="cat" id="catnum">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
-                        <option value="">6+</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6+">6+</option>
                     </select>
                     
                 </div>
                 <div class="question">
                     <h5>入住房型</h5>
                     <select name="roomtype" id="roomtype">
-                        <option value="1">家庭豪華房型</option>
-                        <option value="1">雙層舒適房型</option>
-                        <option value="1">中型舒適房型</option>
                         <option value="1">小型超值房型</option>
+                        <option value="2">中型舒適房型</option>
+                        <option value="3">雙層舒適房型</option>
+                        <option value="4">家庭豪華房型</option>
                     </select>
                 </div>
             
@@ -118,8 +118,8 @@
                     <h5>入住期間</h5>
                     <select name="number" id="number">
                         <option value="1">3-10日</option>
-                        <option value="1">10+日</option>
-                        <option value="1">包月</option>
+                        <option value="2">10+日</option>
+                        <option value="3">30+日</option>
                     </select>
                 </div>
 
@@ -130,7 +130,42 @@
                    <input type="submit" id="bot-sub" class="no"  value="送出">
                 
                 </div>
-            
+
+                <div class="confirm-block">
+                    <ul>
+                        <li>
+                            <h2 class="aaa">預約成功</h2>
+                        </li>
+                        <li>
+                            <h5>預約房型 : </h5>
+                            <h5 class="bbb n1">家庭豪華房型</h5>
+                        </li>
+                        <li>
+                            <h5>預計價格 : </h5>
+                            <h5 class="bbb price2">900 / 日</h5>
+                        </li>
+                        <li>
+                            <h5>入住客數 : </h5>
+                            <h5 class="bbb n2">3 位</h5>
+                        </li>
+                        <li>
+                            <h5 class="word">感謝您的預約!貓愛旅店很榮幸能夠為你服務!請稍等待工作人員確認訂單信息後，將會與您聯繫!謝謝!</h5>
+                        </li>
+                        <li class="btndiv">
+                            <button id="back">
+                                <a href="index.html">
+                                    返回首頁
+                                </a> 
+                            </button>
+                        </li>
+                    </ul>
+                    
+                    
+
+                </div>
+
+                
+        
         </div>
     </div>
 
@@ -165,6 +200,7 @@
             This work is only for practicing and creation, and has no other commercial purposes. If the work violates any intellectual property rights, please contact f4frodojerry123@gmail.com, and the work will be withdrawn as soon as possible</span>
 
     </div>
+    <div id="dark"></div>
     <script>
         var textbox1 = document.getElementById('topdate')
 
@@ -216,6 +252,7 @@
         
         $(".roomname").change(calprice)
         $(".roomdate").change(calprice)
+        
        
          function calprice(){
              let roomname  = $(".roomname").val()
@@ -259,5 +296,93 @@
                 }
             console.log("aaa")
             }
+            
+            // 
+
+            
+            // 
+           
+            $("#bot-sub").click(function(event){
+                event.stopPropagation();
+                
+                $(".confirm-block").show()
+                $("#dark").show()
+                // roomname
+                let roombooked = $("#roomtype").val()
+                console.log(roombooked)
+                if(roombooked == 1){
+                $(".n1").text("小型超值房型")
+                }
+                if(roombooked == 2){
+                $(".n1").text("中型舒適房型")
+                }
+                if(roombooked == 3){
+                $(".n1").text("雙層舒適房型")
+                }
+                if(roombooked == 4){
+                $(".n1").text("家庭豪華房型")
+                }
+                //
+                // catnum
+                
+                let catnum = $("#catnum").val()
+                $(".n2").text(catnum + ' ' + '位' )
+                //
+                //price
+                let roomname  = $("#roomtype").val()
+                let roomdate = $("#number").val()
+                let price = $(".price2")
+                
+                if(roomname == 1 && roomdate == 1){
+                        price.html("700/日")
+                    }
+                else if(roomname == 1 && roomdate == 2){
+                        price.html("650/日")
+                    }
+                else if(roomname == 1 && roomdate == 3){
+                        price.html("600/日")
+                    }
+                else if(roomname == 2 && roomdate == 1){
+                        price.text("900/日")
+                    }
+                else if(roomname == 2 && roomdate == 2){
+                        price.text("800/日")
+                    }
+                if(roomname == 2 && roomdate == 3){
+                        price.text("750/日")
+                    }
+                if(roomname == 3 && roomdate == 1){
+                        price.text("1100/日")
+                    }
+                if(roomname == 3 && roomdate == 2){
+                        price.text("1000/日")
+                    }
+                if(roomname == 3 && roomdate == 3){
+                        price.text("950/日")
+                    }
+                if(roomname == 4 && roomdate == 1){
+                        price.text("1500/日")
+                    }
+                if(roomname == 4 && roomdate == 2){
+                        price.text("1350/日")
+                    }
+                if(roomname == 4 && roomdate == 3){
+                        price.text("1300/日")
+                    }
+                
+          
+            })
+            $("#dark").click(function(event){
+                $(".confirm-block").hide()
+                $("#dark").hide()
+            })
+
+            $("#header").click(function(event){
+                $(".confirm-block").hide()
+                $("#dark").hide()
+            })
+
+            
+
     </script>
 </html>

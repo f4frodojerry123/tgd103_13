@@ -8,6 +8,7 @@ input{
 }
 .outblock{
     padding-top: 120px;
+    
 }
 
 .dateinfo{
@@ -21,6 +22,7 @@ input{
     justify-content: center;
     background-color: #FFF4D8;
     position: relative;
+    
 }
 .dateinfo h4{ 
     position: absolute;
@@ -96,6 +98,7 @@ input{
     border-radius: 5px;
     margin-bottom: 20px;
     background-color: #FFF4D8;
+    
 }
 .detail h4{
     text-align: center;
@@ -115,7 +118,7 @@ input{
    
     
 }
-.detail>div:last-child{
+.detail>div.submit{
     padding: 0;
     width: 300px;
     margin: auto;
@@ -175,6 +178,86 @@ input{
     background-color: #F1DAA0;
     border: 1px solid lightgray;
     box-sizing: border-box;
+}
+.detail>div .submit{
+    padding-left: 0;
+}
+.detail>div.confirm-block{
+    padding: 0;
+    width: 500px;
+    
+    display: none;
+    text-align: left;
+    position: fixed;
+    background-color: #FFF4D8;
+    top: 200px;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    margin: auto;
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 3px solid white;
+    border-radius: 10px;
+    z-index: 15;
+    
+}
+.confirm-block ul{
+    display: flex;
+    flex-direction: column;
+}
+.confirm-block li{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+
+}
+.aaa{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.word{
+    text-align: left;
+}
+.detail>div.confirm-block li.btndiv{
+    justify-content: center;
+    text-align: center;
+    
+}
+.confirm-block .bbb{
+    margin-left: 30px;
+}
+.btndiv>button{
+    margin: 10px;
+}
+#back{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fff;
+    font-weight: normal;
+    color: #777777;
+}
+#back>a{
+    color: #777777;
+}
+#back:hover{
+    background-color: #F1DAA0;
+    
+}
+#dark{
+    background-color: #777777;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
 }
 @media screen and (max-width: 850px){
     #header{
