@@ -568,7 +568,9 @@
     .comment-out2{
         display: block;
         position: relative;
+        height: 173px;
     }
+
 
     .comment-in2{
         box-sizing: border-box;

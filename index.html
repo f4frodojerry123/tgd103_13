@@ -510,23 +510,38 @@
         
          if ($('.comment-out2').css('display') !== 'none')
             {   
+                // $(function () {
+                // setInterval(function () {
+                //     $(".st").fadeIn(1000).delay(3000).fadeOut(1000).delay(10000)
+                //     })})
+                // $(function () {
+                // setInterval(function () {
+                    
+                //     $(".nd").delay(5000).fadeIn(1000).delay(3000).fadeOut(1000).delay(5000)
+                //     })})
+                //     $(function () {
+                // setInterval(function () {
+                    
+                //     $(".rd").delay(10000).fadeIn(1000).delay(3000).fadeOut(1000)
+                //     })})
+                let ndfun = function  nd () {$(".nd").fadeIn(1000).delay(3000).fadeOut(1000, rdfun)};
+                let rdfun = function  rd () {$(".rd").fadeIn(1000).delay(3000).fadeOut(1000,a)};
+                let a = function  a() {$(".st").fadeIn(1000).delay(3000).fadeOut(1000,ndfun)}
+                      
+                        
+
+
+                
                 $(function () {
-                setInterval(function () {
-                    $(".st").fadeIn(1000).delay(3000).fadeOut(1000).delay(10000)
-                    })})
-                $(function () {
-                setInterval(function () {
-                    
-                    $(".nd").delay(5000).fadeIn(1000).delay(3000).fadeOut(1000).delay(5000)
-                    })})
-                    $(function () {
-                setInterval(function () {
-                    
-                    $(".rd").delay(10000).fadeIn(1000).delay(3000).fadeOut(1000)
-                    })})
-                    
-           
-            }
+                setInterval(a())})
+
+              
+                
+               
+
+                }
+                
+              
       
         //comment rwd
         
