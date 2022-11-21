@@ -43,6 +43,7 @@ input{
     border-bottom: 1px solid lightgray;
     border-top: 1px solid lightgray;
     padding: 5px;
+    background-color: #fff;
 }
 .infodetail select{
     width: 100%;
@@ -53,6 +54,7 @@ input{
     border-bottom: 1px solid lightgray;
     border-top: 1px solid lightgray;
     padding: 5px;
+    background-color: #fff;
 }
 .infodetail h5{
     border-bottom: 1px solid lightgray;
@@ -122,6 +124,7 @@ input{
     border: 1px solid lightgray; 
     padding-left: 10px;
     border-radius: 10px;   
+    background-color: #fff;
    
 }
 .detail>div>select{
@@ -130,6 +133,7 @@ input{
     border: 1px solid lightgray;
     text-align: center;    
     border-radius: 10px;  
+    background-color: #fff;
 }
 
 .detail>div>input.ddd{

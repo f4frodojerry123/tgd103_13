@@ -295,13 +295,15 @@
         width: 100%;
         box-sizing: border-box;
         padding-left: 0;
+        position: relative;
+        height: 150px;
         
     }
     .hotitem h6{
         margin: 5px;
     }
-    .itemin>div{
-        flex-direction: column;
+    .itemin p{
+        
         position: absolute;
         bottom: 5px;
         left: 0;
@@ -397,16 +399,27 @@
 
     }
     .item{
-        width: 75%;
+        width: 95%;
     }
     .detail{
         padding: 3px;
     }
     .bot-thing {
         margin-top: 10px;
+        padding-bottom: 5px;
     }
     .bot-thing p{
         margin: 0;
+        font-size: 14px;
+    }
+    .bot-thing h6{
+        margin: 0;
+        
+    }
+    .bot-thing .buybtn{
+        width: auto;
+        margin-right: 5px;
+        font-size: 14px;
     }
     .hot-item-out{
         width: 100%;
@@ -505,6 +518,15 @@
         border: none;
         flex-grow: 1;
         border-left: 1px solid black;
+        height: auto;
 
+    }
+    .itemin>div{
+        
+        position: static;
+    }
+    .itemin p{
+        text-align: left;
+        position: static;
     }
 }
