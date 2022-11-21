@@ -337,5 +337,7 @@ input{
         margin: auto;
         text-align: center;
     }
-   
+    .infodetail select option{
+        text-align: center;
+    }
 }

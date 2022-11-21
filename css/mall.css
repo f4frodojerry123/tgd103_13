@@ -491,5 +491,8 @@ a{
         padding: 0;
         color: black;
     }
+    .page button{
+        color: black;
+    }
 
 }
