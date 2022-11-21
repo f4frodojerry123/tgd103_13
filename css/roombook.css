@@ -44,6 +44,7 @@ input{
     border-top: 1px solid lightgray;
     padding: 5px;
     background-color: #fff;
+    text-align: center;
     color: black;
 }
 .infodetail select{
@@ -56,6 +57,7 @@ input{
     border-top: 1px solid lightgray;
     padding: 5px;
     background-color: #fff;
+    text-align: center;
     color: black;
 }
 .infodetail h5{
@@ -69,6 +71,8 @@ input{
 .submit-top{
     box-sizing: border-box;
     background-color: #fff;
+    text-align: center;
+    color: black;
     
 }
 .submit-top:hover{
@@ -127,6 +131,8 @@ input{
     padding-left: 10px;
     border-radius: 10px;   
     background-color: #fff;
+    
+    color: black;
    
 }
 .detail>div>select{
@@ -136,10 +142,14 @@ input{
     text-align: center;    
     border-radius: 10px;  
     background-color: #fff;
+    text-align: center;
+    color: black;
 }
 
 .detail>div>input.ddd{
+    
     text-align: center;
+    color: black;
    
 }
 
@@ -156,6 +166,7 @@ input{
     box-sizing: border-box;
     background-color: #fff;
     border: 1px solid #FFF4D8;
+    color: black;
     padding-left: 0;
 }
 #bot-sub:hover{
