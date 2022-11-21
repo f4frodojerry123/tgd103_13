@@ -201,6 +201,7 @@
 
     </div>
     <div id="dark"></div>
+    <div id="dark2"></div>
     <script>
         var textbox1 = document.getElementById('topdate')
 
@@ -230,18 +231,25 @@
         // 
         $(".fa").on("click",function(nav){
             nav.stopPropagation
-            if($(".nav").hasClass("now")){
-            $(".nav").animate({right:'-250px'},750).removeClass("now")
-            $("#dark").hide()
-
-           
-            }else{
-            $(".nav").animate({right:'0px'},750).addClass("now")
-            $("#dark").show()
             $(".confirm-block").hide()
+            $("#dark").hide()
+            if($(".nav").hasClass("now")){
+            $("#dark2").hide()
+            $(".nav").animate({right:'-250px'},750).removeClass("now")
+            }else{
+            $("#dark2").show()  
+            $(".nav").animate({right:'0px'},750).addClass("now")
+            
             
             }
         })
+        $("#dark2").click(function(event){
+                $(".confirm-block").hide()
+                $("#dark2").hide()
+                $(".nav").animate({right:'-250px'},750).removeClass("now")
+                
+            })
+           
         //  
         $("input").focus(function(){
             if( !$(this).hasClass("no")){
@@ -311,7 +319,7 @@
            
             $("#bot-sub").click(function(event){
                 event.stopPropagation();
-                
+                $(".nav").animate({right:'-250px'},750).removeClass("now")
                 $(".confirm-block").show()
                 $("#dark").show()
                 // roomname

@@ -177,6 +177,7 @@
             This work is only for practicing and creation, and has no other commercial purposes. If the work violates any intellectual property rights, please contact f4frodojerry123@gmail.com, and the work will be withdrawn as soon as possible</span>
 
     </div>
+    <div id="dark2"></div>
     <!-- js -->
     <script>
         //取得indicator下所有的li
@@ -191,13 +192,29 @@
     </script>
     <script src="./js/jquery-3.6.1.min.js"></script>
     <script>
-        $(".fa").on("click",function(){
+         // 
+         $(".fa").on("click",function(nav){
+            nav.stopPropagation
+            $(".confirm-block").hide()
+            $("#dark").hide()
             if($(".nav").hasClass("now")){
+            $("#dark2").hide()
             $(".nav").animate({right:'-250px'},750).removeClass("now")
             }else{
+            $("#dark2").show()  
             $(".nav").animate({right:'0px'},750).addClass("now")
+            
+            
             }
         })
+        $("#dark2").click(function(event){
+                $(".confirm-block").hide()
+                $("#dark2").hide()
+                $(".nav").animate({right:'-250px'},750).removeClass("now")
+                
+            })
+           
+        // 
     </script>
 
 </body>
