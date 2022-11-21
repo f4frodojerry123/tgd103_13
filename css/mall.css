@@ -337,6 +337,7 @@ a{
         box-sizing: border-box;
         padding-top: 3px;
         padding-bottom: 3px;
+        border-radius: 10px;
         
     }
     .shop-navlist li:first-child{
