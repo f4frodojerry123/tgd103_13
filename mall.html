@@ -70,9 +70,12 @@
                 <ol><h5>
                         所有商品
                         <br>
-                        <i class="fa-solid fa-plus"  ></i>
-                        <i class="fa-solid fa-minus" style="display: none;"></i>
+                       
                     </h5>
+                    <li>
+                         <i class="fa-solid fa-plus"  ></i>
+                        <i class="fa-solid fa-minus" style="display: none;"></i>
+                    </li>
                 </ol>
                 <ol>
                     <h5>飼料/罐頭</h5>
@@ -435,11 +438,13 @@
                 plus.show(1000)
                 minus.hide(800)
                 btn.delay(500).width("100%").removeClass("now")
+                
             }else{
                 list.fadeIn(1000)
                 plus.hide(0)
                 minus.show(1000)
                 btn.width("30%").addClass("now")
+                
             }
 
         })
