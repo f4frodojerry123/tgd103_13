@@ -80,9 +80,9 @@ input{
     color: black;
     
 }
-.submit-top:hover{
-    background-color: #F1DAA0;
-   
+.infodetail>input.submit-top:hover{
+    background-color: #fff;
+    border: 1px solid lightgray;
     box-sizing: border-box;
 }
 
@@ -126,9 +126,9 @@ input{
     margin-top: 20px;
    
 }
-.detail>div.submit:hover{
-    background-color: #ffd89d;
-    border: 1px solid lightgray;
+.detail>div.submit>#bot-sub:hover{
+    background-color: #fff;
+    
     box-sizing: border-box;
 }
 .detail>div>h5{
@@ -197,7 +197,7 @@ input{
     text-align: left;
     position: fixed;
     background-color: #FFF4D8;
-    top: 200px;
+    top: 100px;
     bottom: auto;
     left: auto;
     right: auto;
