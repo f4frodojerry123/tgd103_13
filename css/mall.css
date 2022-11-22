@@ -269,8 +269,10 @@ a{
     transform: scale(1.05);
 }
 /*  */
-.fa-plus{
+.leftdiv ol:first-child>li{
+    
     display: none;
+    
 }
 
 
@@ -282,7 +284,7 @@ a{
         
         z-index: 100;
     }
-    .fa-plus{
+    .leftnav>.leftdiv>ol>li>.fa-plus{
         display: block;
     }
 
@@ -290,9 +292,7 @@ a{
         height: 60px;
         position: absolute;
     }
-    .nav-list{
-
-    }
+ 
 
     .nav{
         float: none;
@@ -441,6 +441,7 @@ a{
     .leftdiv ol:first-child>li{
         border: none;
         background-color: #ffd89d;
+        display: block;
         
     }
     .itembox{
