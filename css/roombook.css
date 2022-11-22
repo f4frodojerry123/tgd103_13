@@ -24,6 +24,7 @@ input{
     position: relative;
     
 }
+
 .dateinfo h4{ 
     position: absolute;
     margin: auto;
@@ -72,9 +73,9 @@ input{
 .infodetail h5 #nn{
     border-top: none;
 }
-.submit-top{
+.infodetail>input.submit-top{
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #f1daa0;
     text-align: center;
     color: black;
     
@@ -123,6 +124,12 @@ input{
     width: 300px;
     margin: auto;
     margin-top: 20px;
+   
+}
+.detail>div.submit:hover{
+    background-color: #ffd89d;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
 }
 .detail>div>h5{
     margin-right: 5px;
@@ -169,7 +176,7 @@ input{
     padding-top: 5px;
     padding-bottom: 5px;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #f1daa0;
     border: 1px solid #FFF4D8;
     color: black;
     padding-left: 0;
