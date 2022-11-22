@@ -218,6 +218,9 @@ td{
         text-align: center;
         
     }
+    #membership>div{
+        padding-right: 19px;
+    }
     .top-main{
         width: 100%;
         padding-top: 60px;

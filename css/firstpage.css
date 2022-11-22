@@ -241,7 +241,7 @@
 
 .on-sales{
     position: absolute;
-    background: linear-gradient(268.9deg, #F4D992 6.38%, #F45E4A 97.6%);
+    background-color: #f1daa0;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
     width: 400px;
     height: 80px;
@@ -254,7 +254,7 @@
     margin:  auto;
     color: #48684e;
 
-    text-shadow: 1px 1px white;
+    
     
 }
 
@@ -529,6 +529,9 @@
         line-height: 60px;
         text-align: center;
         
+    }
+    #membership>div{
+        padding-right: 19px;
     }
 
     .top-main{

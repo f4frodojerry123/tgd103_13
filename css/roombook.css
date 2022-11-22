@@ -271,6 +271,7 @@ input{
     z-index: 10;
     display: none;
 }
+
 @media screen and (max-width: 850px){
     #header{
         
@@ -410,20 +411,24 @@ input{
         text-align: center;
         
     }
+    #membership>div{
+        padding-right: 19px;
+    }
     .dateinfo{
         flex-wrap: wrap;
     }
     .infodetail{
-        width: 250px;
+        width: 90%;
         margin-top: 5px;
         background-color: #FFF4D8;
         border: none;
     }
     .infodetail>h5{
         border: none;
-        width: 80%;
+        width: 30%;
         margin: auto;
         text-align: center;
+        border-radius: 10px;
     }
     .infodetail:last-child{
         border: none;
@@ -432,17 +437,29 @@ input{
         background-color: #fff;
     }
     .infodetail input{
-        width: 80%;
+        width: 30%;
         margin: auto;
         text-align: center;
     }
     .infodetail select{
-        width: 80%;
+        width: 30%;
         margin: auto;
         text-align: center;
     }
     .infodetail select option{
         text-align: center;
+    }
+    .detail>div>select#catnum{
+        width: 50px;
+        margin-right: 150px;
+    }
+    .detail>div>select{
+        width: 100px;
+        margin-right: 100px;
+    }
+    .detail>div>input.ddd{
+        width: 100px;
+        margin-right: 100px;
     }
    
 }
