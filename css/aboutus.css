@@ -85,13 +85,14 @@
 }
 
 .pic{
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 375px;
     background-image: url('../img/aboutus/bottom/mid-hotel.jpg');
     margin: auto;
     transition: background-image 0.5s;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -140,8 +141,8 @@
     
     padding-bottom: 10px;
     margin-top: 0;
-
-}
+    margin-left: 0px;
+    margin: auto;}
 #indicator li{
     width: 100px;
     height: 75px;
@@ -315,9 +316,7 @@
         height: 60px;
         position: absolute;
     }
-    .nav-list{
 
-    }
 
     .nav{
         float: none;
@@ -380,7 +379,7 @@
         margin: auto;
     }
     .intro p{
-        width: 120px;
+        width: 150px;
     }
     .mid >div{
         width: 100%;
@@ -420,6 +419,7 @@
         justify-content: space-evenly;
         padding-left: 10px;
         background-color: lightgray;
+        margin-left: 0;
     }
     #indicator li{
         padding-top: 5px;

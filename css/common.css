@@ -201,6 +201,7 @@ a{
 .nav-list .fa{
     display: none;
 }
+
 #dark2{
     background-color: #777777;
     background: rgba(0, 0, 0, .5);
@@ -310,5 +311,6 @@ a{
     .footer li {
         padding: 5px;
     }
+   
 
 }

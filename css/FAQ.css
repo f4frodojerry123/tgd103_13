@@ -188,7 +188,7 @@
     position: absolute;
     right: 7px;
     top: 28px;
-    color: #777777;
+    color: #DC9731;
      
  }
  .fa-caret-up{
@@ -199,6 +199,7 @@
     text-align: center;
     margin: auto;
     position: absolute;
+    color: #DC9731;
  }
 .bot-list ul>li:last-child{
     text-align: center;

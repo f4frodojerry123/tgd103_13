@@ -1,5 +1,8 @@
 @import url(reset.css);
 @import url(common.css);
+#memberbtn{
+    background-color: #DC9731
+}
 input{
     outline: none
 
@@ -106,13 +109,15 @@ span.yyy{
     margin-top: 50px;
     background-color: #fff;
     border: 1px solid #FFF4D8;
+    background-color: #f1daa0;
     
 }
 #submit:hover{
-    background-color: #F1DAA0;
+    background-color: #ffd89d;
     border: 1px solid lightgray;
     box-sizing: border-box;
 }
+
 
 
 
@@ -178,9 +183,7 @@ margin: 20px;
         height: 60px;
         position: absolute;
     }
-    .nav-list{
-
-    }
+ 
 
     .nav{
         float: none;
